@@ -31,7 +31,7 @@ Aditya Balasubramanian
 _class: lead invert
 -->
 
-- Who am I?
+- About Me
 - Icebreaker
 - Logistics
 - Lost on the Moon
@@ -40,34 +40,30 @@ _class: lead invert
 
 ---
 
-## About me
+## About Me
 
 - Grade: Sophomore
 - \# Teaching Sem: 1
 - Major: Computer Science & Data Science
 - Origin: Maryland
 - Hobbies: 
-    - ping pong
-    - chess
-    - blogging/journaling
-    - geoguessr?
+    - Ping Pong
+    - Chess
+    - Blogging/Journaling
+    - Geoguessr?
 
-![bg right](../res/disc00/intro-pic.png)
+![bg right](../../res/disc00/intro-pic.png)
 
 
 ---
 ## Icebreaker
 
-- Get into groups of 4
-- Each person must introduce another person
+- Introduce different people in groups of (roughly) four!
 - Sample Questions:
-    - Name
-    - Grade
-    - Pronouns (if you want)
-    - Origin/Origins
+    - Name & Pronouns (if you want)
+    - Grade & Major
     - Hobbies
-    - One thing you're looking forward to in 61A
-    - One thing you're NOT looking forward to in 61A
+- As a group, try to find as many things that everyone in your group has in common (cannot be related to college or classes; I know you're all taking 61a at berkeley :))
 
 ---
 
@@ -187,7 +183,7 @@ _class: lead invert
 
 ## Advice
 
-- Marathon, not a Sprint
+* Marathon, not a Sprint
     - Start early on all assignments
     - Set up a schedule you can follow
     - Burnout is real lol
