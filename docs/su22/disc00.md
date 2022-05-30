@@ -25,6 +25,12 @@ Aditya Balasubramanian
 
 ---
 
+<!-- 
+_class: invert
+_backgroundColor: #2222
+-->
+
+
 # <!-- fit --> Announcements :mega:
 
 ---
@@ -139,8 +145,9 @@ _class: lead invert
 
 ---
 
-<!--
-_class: lead
+<!-- 
+_class: invert
+_backgroundColor: gray
 -->
 
 # <!-- fit --> Lost On the Moon :man_astronaut: :moon:

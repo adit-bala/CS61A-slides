@@ -25,12 +25,17 @@ Aditya Balasubramanian
 
 ---
 
+<!-- 
+_class: invert
+_backgroundColor: #22222
+-->
+
 # <!-- fit --> Announcements :mega:
 
 ---
 
 <!-- 
-_class: lead 
+_class: invert
 -->
 
 # <!-- fit --> Control :robot:
@@ -200,7 +205,7 @@ _class: lead invert
 ---
 
 <!-- 
-_class: lead 
+_class: invert 
 -->
 
 ## <!-- fit --> Enviroment Diagrams :earth_americas:
