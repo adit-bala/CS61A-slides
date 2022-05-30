@@ -1,10 +1,10 @@
 ---
 marp: true
-theme: gaia
+theme: uncover
 class: invert
 style: |
     section {
-        font-size: 160%;
+        font-size: 180%;
     }
 paginate: true
 footer: "Slides by Aditya Balasubramanian"
@@ -25,12 +25,12 @@ Aditya Balasubramanian
 
 ---
 
-# Announcements
+# <!-- fit --> Announcements :mega:
 
 ---
 
 <!-- 
-_class: lead invert
+_class: lead 
 -->
 
 # <!-- fit --> Control :robot:
@@ -51,7 +51,7 @@ Falsey|Truthy
 `0`||
 `[]`, `""`, `()`, `{}`||
 
-Some `<conditional expressions>`  that will evaluate to either False/True most of the time, with a few exceptions later into the semester.
+Some `<conditional expressions>`  that will evaluate to either `False`/`True` most of the time, with a few exceptions later into the semester.
 
 ---
 
@@ -81,13 +81,13 @@ _class: lead invert
 ## Short Circuiting
 
 * Sort of like making an assumption
-    * if I'm broke, then I don't need to check the price of boba since I'll never be able to buy it
+    * If I'm broke, then I don't need to check the price of boba since I'll never be able to buy it **lol** :cry:
 
 * `and` will stop at the first **Falsey** value and return it
 
 * `or` will stop at the first **Truthy** value and return it
 * Why is this important?
-    * May not need to evaluvate all expressions. Even if there is an expression that errors, e.g. `1/0`, and/or expression might short circuit before it reaches error
+    * May not need to evaluate all expressions. Even if there is an expression that errors, e.g. `1/0`, `and`/`or` expression might short circuit before it reaches error
 
 ---
 
@@ -100,10 +100,10 @@ _class: lead invert
 * `0 or 435 or False`
     * returns `435`
 * `True and "Hello" and 0`
-    * returns `0`
+    * returns `0` 
 * Short Circuiting
 * `3 and 1/0 and False`
-    * returns `Error`
+    * returns `Error` 
 * `3 and False and 1/0`
     * returns `False`
 
@@ -146,11 +146,63 @@ if wallet == 0:
     print(0)
 ```
 
-* Output ->
-    * you are broke
-      0
+---
+
+<!-- 
+_class: lead invert
+-->
+
+## If Statements Example
+
+```python 
+wallet = 0
+
+if wallet > 0:
+    print('you are not broke')
+else:
+    print('you are broke')
+if wallet == 0:
+    print(0)
+```
+
+```python
+ you are broke 
+ 0
+```
 
 ---
+
+<!-- 
+_class: lead invert
+-->
+
+[ADD EXAMPLES]
+
+---
+
+<!-- 
+_class: lead 
+-->
+
+## <!-- fit --> Enviroment Diagrams :earth_americas:
+
+---
+
+<!-- 
+_class: lead invert
+-->
+
+## Enviroment Diagrams
+
+* What are they?
+    - A way to model how our program runs line by line
+    - Keep track of variables, function calls and what they return, etc.
+* Why use them?
+    - Can help us understand where there is a bug in program (debugging)
+    - Useful for other questions (WWPD, coding)
+    - Exam points!
+
+
 
 
 
