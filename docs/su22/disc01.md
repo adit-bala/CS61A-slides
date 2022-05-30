@@ -109,8 +109,15 @@ _class: lead invert
 
 ---
 
+<style scoped>
+  pre > code {
+    font-size: 150%;
+  }
+</style>
+
 <!-- 
 _class: lead invert
+
 -->
 
 ## If Statements
@@ -133,6 +140,12 @@ else:
 _class: lead invert
 -->
 
+<style scoped>
+  pre > code {
+    font-size: 150%;
+  }
+</style>
+
 ## If Statements Example
 
 ```python 
@@ -151,6 +164,12 @@ if wallet == 0:
 <!-- 
 _class: lead invert
 -->
+
+<style scoped>
+  pre > code {
+    font-size: 150%;
+  }
+</style>
 
 ## If Statements Example
 

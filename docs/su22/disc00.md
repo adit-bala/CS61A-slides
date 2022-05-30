@@ -80,14 +80,14 @@ _class: lead invert
 
 ## Logistics - Discussions
 
-- [Insert Date and Location]
-- Structure
+* [Insert Date and Location]
+* Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
-- Attendance
+* Attendance
   - [Insert policies]
-- Will not get through everything
-- Worksheets can be found at [`cs61a.org`](cs61.org)
+* Will not get through everything
+* Worksheets can be found at [`cs61a.org`](cs61.org)
 
 ---
 
@@ -97,13 +97,13 @@ _class: lead invert
 
 ## Logistics - Labs
 
-- [Insert Date and Location]
-- Coding time :smiling_imp:!
-- Structure
+* [Insert Date and Location]
+* Coding time :smiling_imp:!
+* Structure
   - Mini Lecture
   - Work on Lab
   - Learn with classmates + help from me\*
-- Attendance
+* Attendance
   - [Insert policies]
 
 \* May have others helping out too
@@ -116,14 +116,14 @@ _class: lead invert
 
 ## Logistics - Course
 
-- Homework (13)
+* Homework (13)
   - Released on Thursday
   - Due following Tuesday night
   - Complete [x] for credit
-- Lab (13)
+* Lab (13)
   - Released []
   - Complete [x] for credit
-- Projects (4)
+* Projects (4)
   - Released throughout course
   - Can work with partner
 
@@ -204,11 +204,11 @@ _class: lead invert
 
 ## Advice
 
-- Marathon, not a Sprint
+* Marathon, not a Sprint
   - Start early on all assignments
   - Set up a schedule you can follow
   - Burnout is real lol
-- Resources
+* Resources
   - Office Hours
   - Discussion
   - Tutor Sections
@@ -223,9 +223,9 @@ _class: lead invert
 ## Advice
 
 - You are not in this alone!
-  - I know what's it like to struggle in this class am here for you guys :grin:
-  - Email me for any 61a course related advice or anything in between - I'll try to respond within 24 hours, or send a follow-up if I don't.
-  - Feel free to ask me for any tips related to CS, courses, teaching, apartment searching, clubs, or anything else (can't gurantee quality tho lol)
+  * I know what's it like to struggle in this class am here for you guys :grin:
+  * Email me for any 61a course related advice or anything in between - I'll try to respond within 24 hours, or send a follow-up if I don't.
+  * Feel free to ask me for any tips related to CS, courses, teaching, apartment searching, clubs, or anything else (can't gurantee quality tho lol)
 
 ---
 
