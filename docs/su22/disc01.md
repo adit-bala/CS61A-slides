@@ -31,7 +31,7 @@ Aditya Balasubramanian
 <!-- 
 _class: invert
 _footer: date
-_backgroundColor: #22222
+_backgroundColor: #2222
 -->
 
 # <!-- fit --> Announcements :mega:
@@ -40,6 +40,7 @@ _backgroundColor: #22222
 
 <!-- 
 _class: invert
+_backgroundColor: #2222
 -->
 
 # <!-- fit --> Control :robot:
@@ -241,6 +242,7 @@ _class: invert
 
 <!-- 
 _class: invert 
+_backgroundColor: #2222
 -->
 
 ## <!-- fit --> Enviroment Diagrams :earth_americas:
@@ -348,7 +350,6 @@ _class: invert
 
 ![bg auto fit right:50%](https://i.imgur.com/10hFWgc.jpg)
 
----
 
 
 
