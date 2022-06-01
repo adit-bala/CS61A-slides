@@ -279,31 +279,6 @@ _class: invert
 
 ---
 
-## Frames
-
-- The current scope of the program
-- Like different lenses with a telescope
-    - 1x zoom
-        - Can only see a general layout of landscape
-        - Only variables at the top
-        - Global frame (always exist)
-    - 5x zoom
-        - Can only see close up objects in landscape
-        - See specific variables, but can't really zoom out
-
----
-
-## Assignment Statements
-
-- `x = 2 * 2`
-    - Identified by `=` sign
-    - Evaluate right side first before binding
-        - Left to right for multiple expressions
-    - Create/update binding in current frame
-
-
----
-
 <!-- 
 _class: invert
 -->
@@ -326,7 +301,6 @@ square(2)
 ```
 - Let's create an enviroment diagram for this program!
 - Start from top, go to bottom
-- Need to create a **Global Frame** before we start
 
 ---
 
@@ -336,13 +310,46 @@ _class: invert
 
 ## Frame
 
-- Before we go through our program we first create our
-**Global frame**
-- The current scope of the program
-- **Global frame** always exists
+- Frames are objects that list bindings of **variables** and **values**
+    - tell us how to look up bindings
+- **Global Frame** exists by default
+- Assignment statement (denoted by =) creates binding of **variable** `x` and **values** `3` 
 
 
 ![bg auto right:50%](https://i.imgur.com/olxuGij.jpg)
+
+
+---
+
+## `def` statements
+
+- `def` statements are used to bind **function objects** to a **variable**
+- Only bind, **NO** execution until function is called
+    - `def foo():` 
+    - `foo()` -> execution
+- Binding name is function name
+- Parent function is frame where function is defined
+- Keep track of *name*, *parameters*, *parent frame*
+
+![auto vertical](https://i.imgur.com/QFXAaeW.jpg)
+
+---
+
+## Call Expressions
+
+- Syntax: `function_name(arg1, arg2, ...)`
+- Create new frame for call expression
+- Steps for evaluating:
+    1. Evaluate operator (function)
+        - See if it exists
+    2. Evaluate operands (args)
+        - simplify args
+    3. Apply operator to the operands
+
+![bg auto fit right:50%](https://i.imgur.com/10hFWgc.jpg)
+
+---
+
 
 
 
