@@ -6,14 +6,17 @@ style: |
     section {
         font-size: 180%;
     }
+    footer {
+        font-size: .6em;
+    }
 paginate: true
 footer: "Slides by Aditya Balasubramanian"
 ---
 
 <!-- 
 _paginate: false
-_footer: date
-_class: lead invert
+_footer: Slides available at [`teaching.aditbala.com`](https://teaching.aditbala.com)
+_class: invert
 -->
 
 # <!--fit--> Discussion 01
@@ -27,6 +30,7 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
+_footer: date
 _backgroundColor: #22222
 -->
 
@@ -43,7 +47,7 @@ _class: invert
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
 -->
 
 # Booleans
@@ -61,7 +65,7 @@ Some `<conditional expressions>`  that will evaluate to either `False`/`True` mo
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
 -->
 
 # Boolean Operators
@@ -80,7 +84,7 @@ _class: lead invert
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
 -->
 
 ## Short Circuiting
@@ -97,7 +101,7 @@ _class: lead invert
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
 -->
 
 ## Boolean Examples
@@ -121,11 +125,13 @@ _class: lead invert
 </style>
 
 <!-- 
-_class: lead invert
+_class: invert
 
 -->
 
 ## If Statements
+
+- How to use `<conditional expressions>` to execute/skip lines of code?
 
 ```python 
 if <conditional expression>:
@@ -142,7 +148,7 @@ else:
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
 -->
 
 <style scoped>
@@ -167,7 +173,7 @@ if wallet == 0:
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
 -->
 
 <style scoped>
@@ -197,7 +203,36 @@ if wallet == 0:
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
+-->
+
+[ADD EXAMPLES]
+
+---
+
+<!-- 
+_class: invert
+-->
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+## While Loops
+- How to execute a statement multiple times in a program?
+
+```python
+while <conditional clause>:
+    <statements body>
+```
+- program executes until `<conditional clause>` is false
+
+---
+
+<!-- 
+_class: invert
 -->
 
 [ADD EXAMPLES]
@@ -213,7 +248,7 @@ _class: invert
 ---
 
 <!-- 
-_class: lead invert
+_class: invert
 -->
 
 ## Enviroment Diagrams
@@ -225,6 +260,90 @@ _class: lead invert
     - Can help us understand where there is a bug in program (debugging)
     - Useful for other questions (WWPD, coding)
     - Exam points!
+
+---
+
+## Important Concepts
+
+* Expressions
+    - Evaluate to values
+    - `1 + 1` -> `2`
+* Statements
+    - Bind **names** to **values**
+    - **Names**
+        - `def` statements, assignment statements, </br> variable names
+    - **Values**
+        - numbers, strings, functions, or other objects
+    - `x = 2`
+    - doesn't return anything
+
+---
+
+## Frames
+
+- The current scope of the program
+- Like different lenses with a telescope
+    - 1x zoom
+        - Can only see a general layout of landscape
+        - Only variables at the top
+        - Global frame (always exist)
+    - 5x zoom
+        - Can only see close up objects in landscape
+        - See specific variables, but can't really zoom out
+
+---
+
+## Assignment Statements
+
+- `x = 2 * 2`
+    - Identified by `=` sign
+    - Evaluate right side first before binding
+        - Left to right for multiple expressions
+    - Create/update binding in current frame
+
+
+---
+
+<!-- 
+_class: invert
+-->
+
+## Interactive Example
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+```python
+x = 3
+
+def square(x):
+    return x ** 2
+
+square(2)
+```
+- Let's create an enviroment diagram for this program!
+- Start from top, go to bottom
+- Need to create a **Global Frame** before we start
+
+---
+
+<!-- 
+_class: invert
+-->
+
+## Frame
+
+- Before we go through our program we first create our
+**Global frame**
+- The current scope of the program
+- **Global frame** always exists
+
+
+![bg auto right:50%](https://i.imgur.com/olxuGij.jpg)
+
 
 
 

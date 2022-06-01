@@ -6,13 +6,16 @@ style: |
   section {
       font-size: 175%;
   }
+  footer {
+        font-size: .6em;
+  }
 paginate: true
 footer: "Slides by Aditya Balasubramanian"
 ---
 
 <!--
 _paginate: false
-_footer: date
+_footer: Slides available at [`teaching.aditbala.com`](https://teaching.aditbala.com)
 _class: lead invert
 -->
 
@@ -27,6 +30,7 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
+_footer: date
 _backgroundColor: #2222
 -->
 
@@ -108,11 +112,10 @@ _class: lead invert
 * Structure
   - Mini Lecture
   - Work on Lab
-  - Learn with classmates + help from me\*
+  - Learn with classmates + help from me (and maybe others)
 * Attendance
   - [Insert policies]
 
-\* May have others helping out too
 
 ---
 
@@ -194,7 +197,7 @@ _class: lead invert
 
 - Introductory CS class at Berkeley (not really)
   - Very hard for no programming experience
-  - Can consider taking Data 8/CS 10
+  - Consider taking Data 8/CS 10
 - Course Staff
   - **Instructors/Professors** - Lectures, Exams, OH
   - **TA’s** (aka GSI’s, uGSI’s) - Sections, course logistics, OH

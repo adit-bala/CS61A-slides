@@ -13,7 +13,7 @@ style: |
 
 ## All my teaching resources can be found at </br> 
 
-###### <!--fit--> [`teaching.aditbala.com`](teaching.aditbala.com)
+###### <!--fit--> [`teaching.aditbala.com`](https://teaching.aditbala.com)
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
