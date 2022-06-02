@@ -350,6 +350,12 @@ _class: invert
 
 ![bg auto fit right:50%](https://i.imgur.com/10hFWgc.jpg)
 
+---
+
+## Thank you!
+
+
+
 
 
 
