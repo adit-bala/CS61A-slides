@@ -327,8 +327,8 @@ _class: invert
 
 - `def` statements are used to bind **function objects** to a **variable**
 - Only bind, **NO** execution until function is called
-    - `def foo():` 
-    - `foo()` -> execution
+    - `def foo():` -> define function called `foo` with no parameters
+    - `foo()` -> execute foo
 - Binding name is function name
 - Parent function is frame where function is defined
 - Keep track of *name*, *parameters*, *parent frame*
