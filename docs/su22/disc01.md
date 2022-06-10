@@ -34,7 +34,7 @@ _footer: date
 _backgroundColor: #2222
 -->
 
-# <!-- fit --> Announcements :mega:
+## <!-- fit --> Announcements :mega:
 
 ---
 
