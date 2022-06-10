@@ -120,14 +120,14 @@ style: |
 
 * How do you access a subset of the list?
 * List slicing: creating a copy of part of the list
-    * Syntax: `list[start index: non inclusive end index: step size]`
+    * Syntax: `list[<start index>: <non inclusive end index>: <step size>]`
     * step size by default is 1
     * negative step size means list is reversed
 
 
 --- 
 
-## List Slicing Example
+## List Slicing Examples
 <style scoped>
   pre > code {
     font-size: 175%;
@@ -148,5 +148,35 @@ style: |
 
 >>> a[:3:-1]
 []
+```
+
+---
+
+## List Comprehension
+
+* How do you create a list that fits some criteria?
+e.g. How would you create a list with numbers 1 - 4, but squared
+`[1, 4, 9, 16]`
+* List Comprehension: creating a list based on expressions filtering other lists
+* Syntax: `[<expression> for <value> in <sequence> if <fitler>]`
+* `if` condition is optional
+
+---
+
+## List Comprehension Examples
+<style scoped>
+  pre > code {
+    font-size: 175%;
+  }
+</style>
+
+```python
+>>> a = [x**2 for x in range(1, 5)]
+
+>>> a
+[1, 2, 9, 16]
+
+>>> [x/2 for x in [x for x in a if x % 2 == 0]]
+[1, 8]
 
 ```
