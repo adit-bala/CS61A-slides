@@ -58,16 +58,16 @@ _class: lead invert
 
 ## About Me
 
-- Grade: Sophomore
-- \# Teaching Sem: 1
-- Major: Computer Science & Data Science
-- Origin: Maryland
-- Hobbies:
-  - Ping Pong
-  - Chess
-  - Blogging/Journaling
-  - Geoguessr?
-  - Closet Weeb
+* Grade: Sophomore
+* \# Teaching Sem: 1
+* Major: Computer Science & Data Science
+* Origin: Maryland
+* Hobbies:
+  * Ping Pong
+  * Chess
+  * Blogging/Journaling
+  * Geoguessr?
+  * Closet Weeb
 
 ![bg right](https://i.imgur.com/WNUiTk7.jpg)
 
@@ -90,14 +90,16 @@ _class: lead invert
 
 ## Logistics - Discussions
 
-* [Insert Date and Location]
+* Tu/Th 1:00-2:30PM @ Soda 306
 * Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
-* Attendance
-  - [Insert policies]
 * Will not get through everything
 * Worksheets can be found at [`cs61a.org`](cs61.org)
+* Attendance
+  - Recorded with Google Form
+  - Must attend at least 8 labs (Lab 0 does not count)
+
 
 ---
 
@@ -107,14 +109,14 @@ _class: lead invert
 
 ## Logistics - Labs
 
-* [Insert Date and Location]
+* M/W 9:30-10:30 AM @ Soda 330
 * Coding time :smiling_imp:!
 * Structure
-  - Mini Lecture
+  - Mini Lecture?
   - Work on Lab
   - Learn with classmates + help from me (and maybe others)
 * Attendance
-  - [Insert policies]
+  - Must attend at least 8 labs (Lab 0 does not count)
 
 
 ---
@@ -126,12 +128,13 @@ _class: lead invert
 ## Logistics - Course
 
 * Homework (13)
-  - Released on Thursday
+  - Released on **Monday**, Due **Thursday**
   - Due following Tuesday night
-  - Complete [x] for credit
+  - Scored on correctness (partial credit awarded)
+  - Complete 12 for credit (lowest score dropped)
 * Lab (13)
-  - Released []
-  - Complete [x] for credit
+  - Released **Mon/Wed**, Due **following day**
+  - Scored on completion
 * Projects (4)
   - Released throughout course
   - Can work with partner
@@ -217,7 +220,7 @@ _class: lead invert
 * Marathon, not a Sprint
   - Start early on all assignments
   - Set up a schedule you can follow
-  - Burnout is real lol
+  - Burnout is very real and possible
 * Resources
   - Office Hours
   - Discussion
