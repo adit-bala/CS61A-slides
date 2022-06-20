@@ -30,7 +30,7 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
-_footer: date
+_footer: 6/21/22
 _backgroundColor: #2222
 -->
 
@@ -226,7 +226,7 @@ _class: lead invert
 - You are not in this alone!
   * I know what's it like to struggle in this class am here for you guys :grin:
   * Email me for any 61a course related advice or anything in between - I'll try to respond within 24 hours, or send a follow-up if I don't.
-  * Feel free to ask me for any tips related to CS, courses, teaching, apartment searching, clubs, or anything else (can't gurantee quality tho lol)
+  * Feel free to ask me for any tips related to CS, courses, teaching, apartment searching, clubs, or anything else (can't gurantee quality lol)
 
 ---
 
@@ -248,7 +248,7 @@ _class: lead invert
 _class: invert
 -->
 
-## Any Questions?
+# Any Questions?
 
 ## Intro Survey (Needed to record Attendance)
 
