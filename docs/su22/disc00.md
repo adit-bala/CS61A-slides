@@ -75,7 +75,7 @@ _class: lead invert
 
 ## Icebreaker
 
-- Introduce different people in groups of (roughly) four!
+- **Goal:** Introduce different people in groups of (roughly) four!
 - Sample Questions:
   - Name & Pronouns (if you want)
   - Grade & Major
@@ -94,11 +94,11 @@ _class: lead invert
 * Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
-* Will not get through everything
+  - Will not get through all the practice problems  
 * Worksheets can be found at [`cs61a.org`](cs61.org)
 * Attendance
   - Recorded with Google Form
-  - Must attend at least 8 labs (Lab 0 does not count)
+  - Must **attend** at least 8 Discussions
 
 
 ---
@@ -116,7 +116,7 @@ _class: lead invert
   - Work on Lab
   - Learn with classmates + help from me (and maybe others)
 * Attendance
-  - Must attend at least 8 labs (Lab 0 does not count)
+  - Must **attend** at least 8 labs (Lab 0 does not count)
 
 
 ---
@@ -129,7 +129,6 @@ _class: lead invert
 
 * Homework (13)
   - Released on **Monday**, Due **Thursday**
-  - Due following Tuesday night
   - Scored on correctness (partial credit awarded)
   - Complete 12 for credit (lowest score dropped)
 * Lab (13)
@@ -140,20 +139,9 @@ _class: lead invert
   - Can work with partner
 
 ---
-
-<!--
-_class: lead invert
--->
-
-## Logistics - Office Hours
-
-- [TBD]
-
----
-
 <!-- 
 _class: invert
-_backgroundColor: gray
+_backgroundColor: #2222
 -->
 
 # <!-- fit --> Lost On the Moon :man_astronaut: :moon:
