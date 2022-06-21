@@ -241,6 +241,7 @@ _class: lead invert
   - 510-642-9494
 - After-Hours Assistance Line
   - For consultation with a counselor after CPS business hours and as a crisis resource for students after business hours
+  - (855) 817-5667
 
 ---
 
