@@ -109,7 +109,7 @@ _class: lead invert
 
 ## Logistics - Labs
 
-* M/W 9:30-10:30 AM @ Soda 330
+* M/W 9:30-11:00 AM @ Soda 330
 * Coding time :smiling_imp:!
 * Structure
   - Mini Lecture?
