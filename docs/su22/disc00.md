@@ -98,7 +98,7 @@ _class: lead invert
 * Worksheets can be found at [`cs61a.org`](cs61.org)
 * Attendance
   - Recorded with Google Form
-  - Must **attend** at least 8 Discussions
+  - Must **attend** at least 8 Discussions (Disc 00 does not count)
 
 
 ---
@@ -252,11 +252,11 @@ _class: invert
 
 ## Intro Survey (Needed to record Attendance)
 
-[Insert Link] - won't be as long in future :hugs:
+https://tinyurl.com/adit-welcome - won't be as long in future :hugs:
 
 ## Anonymous Feedback
 
-[Insert Link] - Anything you want to see from me?
+https://tinyurl.com/adit-anon - Anything you want to see from me?
 
 
 ### For questions/concerns: aditbala [at] berkeley [dot] edu
