@@ -127,11 +127,11 @@ _class: lead invert
 
 ## Logistics - Course
 
-* Homework (13)
+* Homework (8)
   - Released on **Monday**, Due **Thursday**
   - Scored on correctness (partial credit awarded)
-  - Complete 12 for credit (lowest score dropped)
-* Lab (13)
+  - Lowest score dropped
+* Lab (12)
   - Released **Mon/Wed**, Due **following day**
   - Scored on completion
 * Projects (4)
