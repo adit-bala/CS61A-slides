@@ -21,7 +21,7 @@ _class: invert
 
 # <!--fit--> Discussion 01
 
-### Control, Environment Diagrams
+### Variables and Functions, Control, Environment Diagrams
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
@@ -68,8 +68,6 @@ Falsey|Truthy
 `None`|Everything else
 `0`||
 `[]`, `""`, `()`, `{}`||
-
-Some `<conditional expressions>`  that will evaluate to either `False`/`True` most of the time, with a few exceptions later into the semester.
 
 ---
 
@@ -124,6 +122,9 @@ _class: invert
     * returns `Error` 
 * `3 and False and 1/0`
     * returns `False`
+
+---
+## Questions or Comments?
 
 ---
 
@@ -208,6 +209,10 @@ if wallet == 0:
  you are broke 
  0
 ```
+
+---
+
+## Questions or Comments?
 
 ---
 
@@ -309,6 +314,9 @@ def case_in_point():
 case_in_point()
 ```
 ---
+## Questions or Comments?
+
+---
 <!-- 
 _class: invert
 -->
@@ -356,7 +364,7 @@ while <conditional clause>:
     <statements body>
 ```
 * program executes until `<conditional clause>` is false
-* In other words, only run when `<conditional clause>` evaluvates to `true`
+* In other words, only run when `<conditional clause>` evaluates to `true`
 
 ---
 
@@ -398,7 +406,8 @@ _class: invert
 x = 3
 while x > 0:
     print(x)
-    x -= 1
+    x -= 1 
+    # x = x - 1
 ```
 
 ```python
@@ -429,6 +438,9 @@ while x > 0:
 ```
 * This will result in an infinite loop
 * Make sure you are modifying the condition in the while loop
+
+---
+## Questions or Comments?
 
 ---
 
@@ -509,6 +521,27 @@ _class: invert
     - doesn't return anything
 
 ---
+## Frames
+
+- `Global Frame` always exists
+- Frames list the bindings of variables and their corresponding value
+- Used to look up the value of a variable
+
+---
+<style scoped>
+  pre > code {
+    font-size: 180%;
+  }
+</style>
+
+## Question 7: Assignment Diagram
+
+```python
+x = 11 % 4
+y = x
+x **= 2
+```
+---
 
 <!-- 
 _class: invert
@@ -581,11 +614,15 @@ _class: invert
 
 ---
 
-[Study Groups???]
+# Thank you!
 
----
+### Attendance Form -> `https://tinyurl.com/adit-disc01`
 
-## Thank you!
+### Anon Feedback -> `https://tinyurl.com/adit-anon`
+
+### Study Groups -> `https://tinyurl.com/adit-study-group`
+
+
 
 
 
