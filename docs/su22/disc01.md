@@ -34,7 +34,15 @@ _footer: date
 _backgroundColor: #2222
 -->
 
-## <!-- fit --> Announcements :mega:
+# Announcements :mega:
+
+- Technial OH 1-4pm in Cory 521 on Thursday (6/23) and 1-3pm in Cory 521 on Friday (6/24)
+- Some appointment based OH on Thursday and Friday and signups for those will occur at midnight the night before at `oh.cs61a.org` . The schedule for OH can also be found at `https://cs61a.org/office-hours/`
+
+---
+
+# <!-- fit --> All Slides can be found on 
+# `teaching.aditbala.com`
 
 ---
 
@@ -79,7 +87,7 @@ _class: invert
     * `0 or None or 1` -> `1`
 * `<conditional expression> and <conditional expression> `
     * return first **Falsey** value, or last value if everything is true
-    * `40 and 0 and True` -> False
+    * `40 and 0 and True` -> 0
     * `40 and 1 and True` -> True
 
 ---
@@ -203,13 +211,132 @@ if wallet == 0:
 
 ---
 
+### General Tips for Approaching Problems
+
+* Do not immediately start coding
+    - Ensure you understand the problem
+    - Have an idea of what you want to  code
+* Groupwork
+    - Bounce ideas off of each other!
+    - Share any ideas, questions, or misconceptions
+* Reading the problem
+    - Please read the entire problem
+    - Hints are very useful
+    - Doctests are SUPER useful
+
+
+
+---
+
 <!-- 
 _class: invert
 -->
 
-[ADD EXAMPLES]
+<style scoped>
+  pre > code {
+    font-size: 160%;
+  }
+</style>
+
+# Question 1 (2 minutes)
+
+```python
+def special_case():
+    x = 10
+    if x > 0:
+        x += 2
+    elif x < 13:
+        x += 3
+    elif x % 2 == 1:
+        x += 4
+    return x
+
+special_case()
+```
 
 ---
+
+<!-- 
+_class: invert
+-->
+
+<style scoped>
+  pre > code {
+    font-size: 160%;
+  }
+</style>
+
+# Question 1 (2 minutes)
+
+```python
+def just_in_case():
+    x = 10
+    if x > 0:
+        x += 2
+    if x < 13:
+        x += 3
+    if x % 2 == 1:
+        x += 4
+    return x
+
+just_in_case()
+```
+
+---
+<!-- 
+_class: invert
+-->
+
+<style scoped>
+  pre > code {
+    font-size: 160%;
+  }
+</style>
+
+# Question 1 (2 minutes)
+
+```python
+def case_in_point():
+    x = 10
+    if x > 0:
+        return x + 2
+    if x < 13:
+        return x + 3
+    if x % 2 == 1:
+        return x + 4
+    return x
+
+case_in_point()
+```
+---
+<!-- 
+_class: invert
+-->
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+# Question 2 (5 minutes)
+
+
+
+```python
+def wears_jacket_with_if(temp, raining):
+    """
+    >>> wears_jacket_with_if(90, False)
+    False
+    >>> wears_jacket_with_if(40, False)
+    True
+    >>> wears_jacket_with_if(100, True)
+    True
+    """
+    "*** YOUR CODE HERE ***"
+```
+---
+
 
 <!-- 
 _class: invert
@@ -228,7 +355,8 @@ _class: invert
 while <conditional clause>:
     <statements body>
 ```
-- program executes until `<conditional clause>` is false
+* program executes until `<conditional clause>` is false
+* In other words, only run when `<conditional clause>` evaluvates to `true`
 
 ---
 
@@ -236,9 +364,110 @@ while <conditional clause>:
 _class: invert
 -->
 
-[ADD EXAMPLES]
+## While Loop Examples
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+```python
+x = 3
+while x > 0:
+    print(x)
+    x -= 1
+```
+
+
 
 ---
+<!-- 
+_class: invert
+-->
+
+## While Loop Example
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+```python
+x = 3
+while x > 0:
+    print(x)
+    x -= 1
+```
+
+```python
+3
+2
+1
+```
+
+---
+<!-- 
+_class: invert
+-->
+
+## While Loop Example
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+- What is wrong with this while loop
+
+```python
+x = 3
+while x > 0:
+    print(x)
+```
+* This will result in an infinite loop
+* Make sure you are modifying the condition in the while loop
+
+---
+
+## Question 4: Is Prime? (10 min)
+
+<style scoped>
+  pre > code {
+    font-size: 160%;
+  }
+</style>
+
+Hint: Use the % operator: x % y returns the remainder of x when divided by y
+
+```python
+def is_prime(n):
+    """
+    >>> is_prime(10)
+    False
+    >>> is_prime(7)
+    True
+    >>> is_prime(1) # one is not a prime number!!
+    False
+    """
+    "*** YOUR CODE HERE ***"
+```
+
+---
+## Question 5: Fizzbuzz (15 min)
+
+Implement the fizzbuzz sequence, which prints out a single statement for each number from 1 to `n`. For a number `i`,
+
+- If `i` is divisible by 3 only, then we print `fizz`.
+- If `i` is divisible by 5 only, then we print `buzz`.
+- If `i` is divisible by both 3 and 5, then we print `fizzbuzz`.
+- Otherwise, we print the number `i` by itself.
+
+
+---
+
 
 <!-- 
 _class: invert 
@@ -349,6 +578,10 @@ _class: invert
     3. Apply operator to the operands
 
 ![bg auto fit right:50%](https://i.imgur.com/10hFWgc.jpg)
+
+---
+
+[Study Groups???]
 
 ---
 
