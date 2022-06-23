@@ -620,7 +620,7 @@ _class: invert
 
 ### Anon Feedback -> `https://tinyurl.com/adit-anon`
 
-### Study Groups -> `https://tinyurl.com/adit-study-group`
+### Study Groups -> Will send out in email
 
 
 
