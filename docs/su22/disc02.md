@@ -34,16 +34,134 @@ _footer: date
 _backgroundColor: #2222
 -->
 
-## <!-- fit --> Announcements :mega:
+# <!-- fit --> Announcements :mega:
 
+- First Project (Hog) released !!!
+    - Checkpoint due 7/1
+    - Project due 7/6
+    - Extra Credit (start early)
+- First Homework released (HW01)
+    - Getting started videos
+    - Due Thursday (6/30)
+- Quick note
+    - 61a is 2x speed
+    - Make sure to use resources
 ---
 
+<!-- 
+_class: invert
+_footer: 6/26/2022
+
+-->
+
+# Agenda :page_facing_up:
+
+- Mini-Lecture on environment diagrams, 
+
+
+
+
+
+---
 <!-- 
 _class: invert
 _backgroundColor: #2222
 -->
 
 # <!-- fit --> Environment Diagrams :earth_americas:
+
+---
+
+<!-- 
+_class: invert
+-->
+
+## Enviroment Diagrams
+
+* What are they?
+    - A way to model how our program runs line by line
+    - Keep track of variables, function calls and what they return, etc.
+* Why use them?
+    - Can help us understand where there is a bug in program (debugging)
+    - Useful for other questions (WWPD, coding)
+    - Exam points!
+
+---
+
+## Important Concepts
+
+* Expressions
+    - Evaluate to values
+    - `1 + 1` -> `2`
+* Statements
+    - Bind **names** to **values**
+    - **Names**
+        - `def` statements, assignment statements, </br> variable names
+    - **Values**
+        - numbers, strings, functions, or other objects
+    - `x = 2` 
+    - doesn't return anything
+
+---
+## Frames
+
+* What are they?
+    - Frames list the bindings of variables and their corresponding value
+* What are they used for?
+    - Used to look up the value of a variable
+* `Global Frame` always exists
+
+---
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+## Assignment Statements
+
+- Assignment statements (denoted by =) creates new binding in frame
+- Evaluate right side **completely** before binding to left side
+- Example
+
+```python
+x = 11 % 4
+y = x
+x **= 2
+```
+
+![bg auto right:50%](https://i.imgur.com/olxuGij.jpg)
+
+---
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+## Def statements
+
+* `def` statements are used to bind **function objects** to a **variable**
+* Binding name is function name
+* Parent of the function is frame where function is defined
+* Keep track of *name*, *parameters*, *parent frame*
+* Example
+```python
+x = 3
+def square(x):
+    return x ** 3
+square(x)
+```
+
+
+---
+
+## Def statements
+
+- Only bind, **NO** execution until function is called
+    - `def foo():` -> define function called `foo` with no parameters
+    - `foo()` -> execute foo
+
+![auto vertical](https://i.imgur.com/QFXAaeW.jpg)
 
 ---
 
@@ -57,8 +175,8 @@ style: |
 
 ## Call Expressions
 
-- Syntax: `function_name(arg1, arg2, ...)`
-- `sum(square(2), 2 + 2)`
+* Syntax: `function_name(arg1, arg2, ...)`
+* `sum(square(2), 2 + 2)`
 * Create new frame for call expression
 * Steps for evaluating:
     1. Evaluate operator (function)
@@ -77,12 +195,12 @@ style: |
 
 ## Creating New Frames
 
-- Give frame with unique index (`f1`, `f2`, `f3`)
-- Label frame with name of function object
+* Give frame with unique index (`f1`, `f2`, `f3`)
+* Label frame with name of function object
     - not always the variable name
-- Label function's parent
-
- - [INCLUDE EXAMPLE]
+* Label function's parent
+* Every function has return value
+    - Return value can be `None`
 
  ---
 
@@ -99,7 +217,47 @@ style: |
 
 <!-- _class: invert -->
 
-## [ADD QUESTIONS]
+# Question 1 (5 minutes)
+
+Let’s put it all together! Draw an environment diagram for the following code. You may not have to use all of the blanks provided to you.
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+```python 
+def double(x):
+    return x * 2
+
+hmmm = double
+wow = double(3)
+hmmm(wow)
+```
+
+---
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+# Question 2 (walkthrough)
+Draw the environment diagram that results from executing the code below. 
+```python
+def f(x):
+    return x
+
+def g(x, y):
+    if x(y):
+        return not y
+    return y
+
+x = 3
+x = g(f, x)
+f = g(f, 0)
+```
+
 
  ---
 
@@ -142,20 +300,61 @@ _class: invert
 def add_and_square(x, y, z):
     return (x + y + z) ** 2
 
-lambda_mul_by_three = lambda x, y, z : (x + y + z) ** 2
+lambda_add_and_square = lambda x, y, z : (x + y + z) ** 2
 ```
 
 ```python
 def error():
     return 1 + 2 / 0
 
-lambda_mul_by_three = lambda : 1 + 2 / 0
+lambda_error = lambda : 1 + 2 / 0
 ```
 
 ---
- <!-- 
-_class: invert
--->
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+## `lambda` Examples Pt. 2
+
+```python
+>>> lambda x : x // 3
+
+>>> (lambda x : x / 3)(5)
+
+>>> wow = lambda x: lambda y: lambda z: x * y * z
+>>> wow(3)(7)(5)
+
+>>> (lambda x: x(3,4))(lambda a,b: a ** b)
+
+```
+---
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+## `lambda` Examples Pt. 2
+
+```python
+>>> lambda x : x // 3
+Function
+>>> (lambda x : x / 3)(5)
+
+>>> wow = lambda x: lambda y: lambda z: x * y * z
+>>> wow(3)(7)(5)
+
+>>> (lambda x: x(3,4))(lambda a,b: a ** b)
+
+```
+
+---
+
 <style scoped>
   pre > code {
     font-size: 170%;
@@ -169,14 +368,73 @@ _class: invert
 Function
 >>> (lambda x : x / 3)(5)
 1
->>> func = lambda x: lambda y: lambda z: x * y * z
->>> func(3)(7)(5)
+>>> wow = lambda x: lambda y: lambda z: x * y * z
+>>> wow(3)(7)(5)
 105
->>> lambda()
+>>> (lambda x: x(3,4))(lambda a,b: a ** b)
+
 ```
 
-FIX TO SHOW INDIVIDUALLY
+---
 
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+## `lambda` Examples Pt. 2
+
+```python
+>>> lambda x : x // 3
+Function
+>>> (lambda x : x / 3)(5)
+1
+>>> wow = lambda x: lambda y: lambda z: x * y * z
+>>> wow(3)(7)(5)
+105
+>>> (lambda x: x(3,4))(lambda a,b: a ** b)
+81
+```
+---
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+## `lambda` Examples Pt. 2
+
+```python
+>>> lambda x : x // 3
+Function
+>>> (lambda x : x / 3)(5)
+1
+>>> wow = lambda x: lambda y: lambda z: x * y * z
+>>> wow(3)(7)(5)
+105
+>>> (lambda x: x(3,4))(lambda a,b: a ** b)
+81
+```
+---
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+# Question 3 (5 minutes)
+
+Draw the environment diagram for the following code and predict what Python will output.
+
+```python
+a = lambda x: x * 2 + 1
+def b(b, x):
+    return b(x + a(x))
+x = 3
+x = b(a, x)
+```
 ---
 
 <!-- 
@@ -237,10 +495,75 @@ _backgroundColor: #2222
 ## HOF Function as Output Example
 
 ```python
->>> def compose1(f, g):
-        def h(x):
-            return f(g(x))
-        return h
+>>> def first(x):
+        def square(y):
+            def mod(z):
+                return (x ** y) % z
+            return h
+        return g
 
->>> compose1(mul, )
+>>> a = first(2)
+>>> b = a(4)
+>>> b(3)
+```
+---
+
+<!-- _class: invert -->
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+## HOF Function as Output Example
+
+```python
+>>> def first(x):
+        def square(y):
+            def mod(z):
+                return (x ** y) % z
+            return h
+        return g
+
+>>> a = first(2)
+>>> b = a(4)
+>>> b(3)
+1
+```
+
+---
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+# Question 4 (5 minutes)
+
+Draw the environment diagram for the following code and predict what Python will output.
+
+```python
+n = 9
+def make_adder(n):
+    return lambda k: k + n
+add_ten = make_adder(n+1)
+result = add_ten(n)
+```
+---
+
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+# Question 5 (10 minutes)
+
+
+```python
+n = 9
+def make_adder(n):
+    return lambda k: k + n
+add_ten = make_adder(n+1)
+result = add_ten(n)
 ```
