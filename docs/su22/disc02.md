@@ -21,7 +21,7 @@ _class: invert
 
 # <!--fit--> Discussion 02
 
-### Environment Diagrams, Lambdas, Higher-Order Functions
+### Environment Diagrams, Higher-Order Functions
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
@@ -37,15 +37,16 @@ _backgroundColor: #2222
 # <!-- fit --> Announcements :mega:
 
 - First Project (Hog) released !!!
-    - Checkpoint due 7/1
+    - Checkpoint due 7/1 (1pt)
     - Project due 7/6
-    - Extra Credit (start early)
+    - Extra Credit (1pt, start early)
 - First Homework released (HW01)
     - Getting started videos
     - Due Thursday (6/30)
 - Quick note
     - 61a is 2x speed
     - Make sure to use resources
+    - [Tutoring Sections](https://tutorials.cs61a.org/) have opened!
 ---
 ## Boolean Expressions Clarification
 
