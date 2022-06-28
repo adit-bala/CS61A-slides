@@ -21,7 +21,7 @@ _class: invert
 
 # <!--fit--> Discussion 02
 
-### Environment Diagrams, Higher-Order Functions
+### Environment Diagrams, Lambdas, Higher-Order Functions
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
@@ -47,7 +47,12 @@ _backgroundColor: #2222
     - 61a is 2x speed
     - Make sure to use resources
 ---
+## Boolean Expressions Clarification
 
+ - `True and not False or not True and False`
+ - `(True and (not False)) or ((not True) and False)`
+
+---
 <!-- 
 _class: invert
 _footer: 6/26/2022
@@ -549,21 +554,67 @@ def make_adder(n):
 add_ten = make_adder(n+1)
 result = add_ten(n)
 ```
+
 ---
 
 <style scoped>
   pre > code {
-    font-size: 170%;
+    font-size: 150%;
   }
 </style>
 
-# Question 5 (10 minutes)
+# Question 5 (10 min)
 
+Write a function that takes in a number `n` and returns a function that can take in a single parameter `cond`. When we pass in some condition function `cond` into this returned function, it will print out numbers from 1 to `n` where calling cond on that number returns `True`.
 
-```python
-n = 9
-def make_adder(n):
-    return lambda k: k + n
-add_ten = make_adder(n+1)
-result = add_ten(n)
+```python 
+def make_keeper(n):
+    """Returns a function which takes one parameter cond and prints
+    out all integers 1..i..n where calling cond(i) returns True.
+
+    >>> def is_even(x):
+    ...     # Even numbers have remainder 0 when divided by 2.
+    ...     return x % 2 == 0
+    >>> make_keeper(5)(is_even)
+    2
+    4
+    """
 ```
+
+---
+
+<style scoped>
+  pre > code {
+    font-size: 145%;
+  }
+</style>
+
+```python 
+def make_keeper(n):
+    """Returns a function which takes one parameter cond and prints
+    out all integers 1..i..n where calling cond(i) returns True.
+
+    >>> def is_even(x):
+    ...     # Even numbers have remainder 0 when divided by 2.
+    ...     return x % 2 == 0
+    >>> make_keeper(5)(is_even)
+    2
+    4
+    """
+     def keeper(cond):
+      i = 1
+      while (i <= n):
+        if cond(i):
+          print(i)
+        i += 1
+    return keeper # remember this line
+```
+---
+
+# Thank you!
+
+### Attendance Form -> https://tinyurl.com/adit-disc02
+
+### Anon Feedback -> https://tinyurl.com/adit-anon
+
+### Study Groups -> https://tinyurl.com/adit-study
