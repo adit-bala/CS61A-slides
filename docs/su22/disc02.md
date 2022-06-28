@@ -30,7 +30,7 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
-_footer: 6/27
+_footer: 6/28
 _backgroundColor: #2222
 -->
 
@@ -39,7 +39,7 @@ _backgroundColor: #2222
 - First Project (Hog) released !!!
     - Checkpoint due 7/1 (1pt)
     - Project due 7/6
-    - Extra Credit (1pt, start early)
+    - Extra Credit (1pt, due 7/5)
 - First Homework released (HW01)
     - Getting started videos
     - Due Thursday (6/30)
@@ -174,8 +174,6 @@ square(x)
     - `def foo():` -> define function called `foo` with no parameters
     - `foo()` -> execute foo
 
-![auto vertical](https://i.imgur.com/QFXAaeW.jpg)
-
 ---
 
 <!-- 
@@ -194,10 +192,10 @@ style: |
 * Steps for evaluating:
     1. Evaluate operator (function)
         - See if it exists
-            - `sum` adds two numbers
+          - `square(2) -> 4` squares number
+          - `sum` adds two numbers
     2. Evaluate operands (args)
         - simplify args
-            - `square(2)` -> `4`
             - `2 + 2` -> `4`
     3. Apply operator to the operands
         - `sum(4, 4) -> 8`
@@ -257,6 +255,7 @@ hmmm(wow)
 
 # Question 2 (walkthrough)
 Draw the environment diagram that results from executing the code below. 
+(note: evaluate, then assign)
 ```python
 def f(x):
     return x
@@ -383,7 +382,7 @@ Function
 1
 >>> wow = lambda x: lambda y: lambda z: x * y * z
 >>> wow(3)(7)(5)
-105
+
 >>> (lambda x: x(3,4))(lambda a,b: a ** b)
 
 ```
@@ -407,7 +406,6 @@ Function
 >>> wow(3)(7)(5)
 105
 >>> (lambda x: x(3,4))(lambda a,b: a ** b)
-81
 ```
 ---
 
@@ -507,18 +505,21 @@ _backgroundColor: #2222
 
 ## HOF Function as Output Example
 
+- [PythonTutor](https://pythontutor.com/composingprograms.html#code=def%20first%28x%29%3A%0A%20%20%20%20def%20square%28y%29%3A%0A%20%20%20%20%20%20%20%20def%20mod%28z%29%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20%28x%20**%20y%29%20%25%20z%0A%20%20%20%20%20%20%20%20return%20mod%0A%20%20%20%20return%20square%0A%0Aa%20%3D%20first%282%29%0Ab%20%3D%20a%284%29%0Ab%283%29&cumulative=true&curInstr=2&mode=display&origin=composingprograms.js&py=3&rawInputLstJSON=%5B%5D)
+
 ```python
 >>> def first(x):
         def square(y):
             def mod(z):
                 return (x ** y) % z
-            return h
-        return g
+            return mod
+        return square
 
 >>> a = first(2)
 >>> b = a(4)
 >>> b(3)
 ```
+
 ---
 
 <!-- _class: invert -->
