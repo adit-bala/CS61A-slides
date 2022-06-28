@@ -30,7 +30,7 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
-_footer: date
+_footer: 6/23
 _backgroundColor: #2222
 -->
 

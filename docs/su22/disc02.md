@@ -30,7 +30,7 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
-_footer: date
+_footer: 6/27
 _backgroundColor: #2222
 -->
 
@@ -49,8 +49,10 @@ _backgroundColor: #2222
 ---
 ## Boolean Expressions Clarification
 
- - `True and not False or not True and False`
- - `(True and (not False)) or ((not True) and False)`
+ *  `True and not False or not True and False`
+ *  `(True and (not False)) or ((not True) and False)` -> `True`
+ * `False or 1 and 4`
+ * `False or (1 and 4)` -> `4`
 
 ---
 <!-- 
@@ -61,7 +63,12 @@ _footer: 6/26/2022
 
 # Agenda :page_facing_up:
 
-- Mini-Lecture on environment diagrams, 
+- Mini-Lecture on environment diagrams
+- `Q1`, `Q2` (walkthrough)
+- Mini-Lecture on `lambda`s
+- `Q3`
+- Mini-Lecture on `HOF`
+- `Q4, Q5`
 
 
 
@@ -203,7 +210,7 @@ style: |
 * Give frame with unique index (`f1`, `f2`, `f3`)
 * Label frame with name of function object
     - not always the variable name
-* Label function's parent
+* Label function's parent (frame in which it is defined in)
 * Every function has return value
     - Return value can be `None`
 
@@ -328,7 +335,7 @@ lambda_error = lambda : 1 + 2 / 0
 ```python
 >>> lambda x : x // 3
 
->>> (lambda x : x / 3)(5)
+>>> (lambda x : x // 3)(5)
 
 >>> wow = lambda x: lambda y: lambda z: x * y * z
 >>> wow(3)(7)(5)
@@ -349,7 +356,7 @@ lambda_error = lambda : 1 + 2 / 0
 ```python
 >>> lambda x : x // 3
 Function
->>> (lambda x : x / 3)(5)
+>>> (lambda x : x // 3)(5)
 
 >>> wow = lambda x: lambda y: lambda z: x * y * z
 >>> wow(3)(7)(5)
@@ -371,7 +378,7 @@ Function
 ```python
 >>> lambda x : x // 3
 Function
->>> (lambda x : x / 3)(5)
+>>> (lambda x : x // 3)(5)
 1
 >>> wow = lambda x: lambda y: lambda z: x * y * z
 >>> wow(3)(7)(5)
@@ -393,28 +400,7 @@ Function
 ```python
 >>> lambda x : x // 3
 Function
->>> (lambda x : x / 3)(5)
-1
->>> wow = lambda x: lambda y: lambda z: x * y * z
->>> wow(3)(7)(5)
-105
->>> (lambda x: x(3,4))(lambda a,b: a ** b)
-81
-```
----
-
-<style scoped>
-  pre > code {
-    font-size: 170%;
-  }
-</style>
-
-## `lambda` Examples Pt. 2
-
-```python
->>> lambda x : x // 3
-Function
->>> (lambda x : x / 3)(5)
+>>> (lambda x : x // 3)(5)
 1
 >>> wow = lambda x: lambda y: lambda z: x * y * z
 >>> wow(3)(7)(5)
@@ -423,13 +409,34 @@ Function
 81
 ```
 ---
+
 <style scoped>
   pre > code {
     font-size: 170%;
   }
 </style>
 
-# Question 3 (5 minutes)
+## `lambda` Examples Pt. 2
+
+```python
+>>> lambda x : x // 3
+Function
+>>> (lambda x : x // 3)(5)
+1
+>>> wow = lambda x: lambda y: lambda z: x * y * z
+>>> wow(3)(7)(5)
+105
+>>> (lambda x: x(3,4))(lambda a,b: a ** b)
+81
+```
+---
+<style scoped>
+  pre > code {
+    font-size: 170%;
+  }
+</style>
+
+# Question 3 (10 minutes)
 
 Draw the environment diagram for the following code and predict what Python will output.
 
@@ -543,7 +550,7 @@ _backgroundColor: #2222
   }
 </style>
 
-# Question 4 (5 minutes)
+# Question 4 (10 minutes)
 
 Draw the environment diagram for the following code and predict what Python will output.
 
