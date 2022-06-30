@@ -66,17 +66,7 @@ _backgroundColor: #2222
 
 ---
 
-## Recursion
-
-* What is a recursive function?
-    - A function that calls itself
-    - Returns a function call of itself, not the object (different than HOF)
-* Recursive Leap of Faith
-    - The idea that the recursive function will work no matter what/how many test cases are passed in
-
----
-
-## Example
+## An Exciting Metaphor
 
 * The Problem
     - Want to find how many dolls are inside this doll
@@ -94,17 +84,32 @@ _backgroundColor: #2222
 
 ---
 
+# Dish Washing Example
+
+# INTERACTIVE !
+
+---
+
+## Recursion
+
+* What is a recursive function?
+    - A function that calls itself
+    - Returns a function call of itself, not the object (different than HOF)
+* Recursive Leap of Faith
+    - The idea that the recursive function will work no matter what/how many test cases are passed in
+
+---
+
 ## Solution in Formal Terms of Recursion
 
 * Base Case
     * smallest problem with guranteed answer, or smallest input
     * **A doll with no other dolls inside of it**
+    * **One dish left**
 * Recursive Call
     * A method of reducing the current problem into a smaller problem
     * **Removing each layer one by one and adding it to a total**
-* Using everything together
-    * **Function:** (Add 1 to total and remove layer)
-    **Base Case:** Stop once you you get to the smallest doll
+    * **Making a clone to wash dishes**
 
 ---
 
