@@ -88,6 +88,8 @@ _backgroundColor: #2222
 
 # INTERACTIVE !
 
+- 20 dishes to wash on a Sunday morning
+
 ---
 
 ## Recursion
@@ -173,7 +175,7 @@ def multiply(m, n):
   }
 </style>
 
-# Q3: Find the Bug
+# Q3: Find the Bug (3 min)
 Find the bug with this recursive function.
 
 ```python
