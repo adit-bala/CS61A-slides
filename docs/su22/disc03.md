@@ -21,7 +21,7 @@ _class: invert
 
 # <!--fit--> Discussion 03
 
-### Recursion
+### Recursion, Tree Recursion :)
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
