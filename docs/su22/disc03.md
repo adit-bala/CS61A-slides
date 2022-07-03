@@ -204,15 +204,15 @@ _backgroundColor: #2222
 
 ---
 
-## Tree Recursion :deciduous_tree:
+## Tree Recursion
 
 * What is Tree Recursion?
-    - Recursion, but more!
-    - Multiple recursive calls
-* When do we use them?
-    - When we need to break problem down in more than one way
-    - When we have multiple choices
-
+    - Recursion, but with more recursive calls
+    - Can break down the problem in more than one way
+    - With all of the options drawn out, looks like a tree of recursive calls
+* When and Why?
+    - Useful when the original problem can be broken down in multiple ways
+    - Accumulate all sub-problems with multiple recursive calls
 ---
 <style scoped>
   pre > code {

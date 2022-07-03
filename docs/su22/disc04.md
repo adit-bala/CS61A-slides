@@ -30,35 +30,11 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
-_footer: date
+_footer: 7/5
 _backgroundColor: #2222
 -->
 
 ##  <!-- fit --> Announcements :mega:
-
----
-
-<!-- 
-_backgroundColor: #2222
--->
-
-# <!-- fit --> Tree Recursion :leaves: :deciduous_tree: :leaves:
-
----
-
-## Tree Recursion
-
-* What is Tree Recursion?
-    - Recursion, but with more recursive calls
-    - Can break down the problem in more than one way
-    - With all of the options drawn out, looks like a tree of recursive calls
-* When and Why?
-    - Useful when the original problem can be broken down in multiple ways
-    - Accumulate all sub-problems with multiple recursive calls
-
----
-
-## FIND EXAMPLE FOR FIB 
 
 ---
 
@@ -112,7 +88,7 @@ style: |
 
 ---
 
-###### <!-- fit --> WWPD 
+# Q3: WWPD
 
 ---
 
@@ -180,3 +156,26 @@ e.g. How would you create a list with numbers 1 - 4, but squared
 [1, 8]
 
 ```
+---
+
+# Q4: Even weighted
+
+---
+
+# Q5: Max Product
+
+---
+
+# Sequences :one: :two: :three:
+
+---
+
+# Sequences
+
+* Many languages provide `map`, `filter`, `reduce` functions for sequences (lists in Python) 
+* Help manipulate lists with built-in functions
+
+---
+
+# Q1: Map, Filter, Reduce
+
