@@ -54,6 +54,10 @@ _backgroundColor: #2222
   - All lecture prior to the week of the exam
   - Practice exams until Summer 2019
   - Would personally reccomend doing more if you feel shaky (start soon)
+- Video for `count_k(n, k)`
+  - Delayed
+  - Will try to get done today
+  - Rough(ish) weekend
 
 ---
 
@@ -72,6 +76,7 @@ _backgroundColor: #2222
     - `[1, 2, 3]`
     - `[True, False, 'boo']`
     - `[[4], [3, 6, 7], [8]]`
+- Environment diagrams
 
 --- 
 
@@ -158,7 +163,7 @@ style: |
 e.g. How would you create a list with numbers 1 - 4, but squared
 `[1, 4, 9, 16]`
 * List Comprehension: creating a list based on expressions filtering other lists
-* Syntax: `[<expression> for <value> in <sequence> if <fitler>]`
+* Syntax: `[<expression> for <value> in <sequence> [if <filter>]]`
 * `if` condition is optional
 
 ---
