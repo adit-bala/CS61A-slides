@@ -21,7 +21,7 @@ _class: invert
 
 # <!--fit--> Discussion 04
 
-### Tree Recursion and Python Lists
+### Sequences
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
@@ -34,7 +34,26 @@ _footer: 7/5
 _backgroundColor: #2222
 -->
 
-##  <!-- fit --> Announcements :mega:
+## Announcements :mega:
+
+- Hog due TODAY for EXTRA CREDIT (7/5)
+- No extensions for EC unless you have specific accomodations
+- HW2 due Thursday (July 7th)
+- Cats (Project 2!) begins Thursday
+  - Checkpoint next Tuesday (July 12th)
+  - Due following Tuesday (July 19th)
+- Instructor OH - conceptual help; super useful!
+
+
+
+---
+
+# Questions from last discussion
+
+- What is in-scope for the exam
+  - All lecture prior to the week of the exam
+  - Practice exams until Summer 2019
+  - Would personally reccomend doing more if you feel shaky (start soon)
 
 ---
 
@@ -88,7 +107,7 @@ style: |
 
 ---
 
-# Q3: WWPD
+# Q3: WWPD (Lists)
 
 ---
 
@@ -179,3 +198,51 @@ e.g. How would you create a list with numbers 1 - 4, but squared
 
 # Q1: Map, Filter, Reduce
 
+---
+
+# Q2: Count Palindromes
+
+---
+
+<style scoped>
+  pre > code {
+    font-size: 145%;
+  }
+</style>
+
+# Dictionaries :book:
+
+* Maps `keys` to `values`
+* Doesn't really have an order
+* Access elements using `keys` rather than indices
+
+---
+
+# Dictionaries :book:
+
+- Maps `keys` to `values`
+- Doesn't really have an order
+- Access elements using `keys` rather than indices
+- Defined with curly braces (`{}`)
+  - `{key: value}`
+
+Demo:
+
+```python
+pokemon = {'pikachu': 25, 'dragonair': 148, 25: 'hello'}
+pokemon['pikachu'] # 25
+pokemon['hello'] = 'hi'
+pokemon # {'pikachu': 25, 'dragonair': 148, 25: 'hello', 'hello': 'hi'}
+```
+
+---
+
+# Q6: WWPD (Dictionaries)
+
+---
+
+# Thank you
+
+### Attendance Form -> https://tinyurl.com/adit-disc04
+
+### Anon Feedback -> https://tinyurl.com/adit-anon
