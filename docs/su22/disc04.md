@@ -106,6 +106,8 @@ style: |
 ```
 
 ---
+# What questions do we have?
+---
 
 # Q3: WWPD (Lists)
 
@@ -146,6 +148,9 @@ style: |
 ```
 
 ---
+# What questions do we have?
+
+---
 
 ## List Comprehension
 
@@ -175,6 +180,9 @@ e.g. How would you create a list with numbers 1 - 4, but squared
 [1, 8]
 
 ```
+---
+# What questions do we have?
+
 ---
 
 # Q4: Even weighted
