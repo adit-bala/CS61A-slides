@@ -40,7 +40,7 @@ _backgroundColor: #2222
 - CATS released!!!
     - Can have a partner
     - more time for this project 
-- Midterm a week from tommorow
+- Midterm a week from today
     - all content through today's lecture (inheritance) will be in scope
     - Logistics will come on Piazza
     - Start studying!
