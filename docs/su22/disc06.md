@@ -118,7 +118,7 @@ class Pet():
     def talk(self):
         print(self.name)
 
-class Dog(Pet): # Inherits all methods/variables from the Animal class
+class Dog(Pet): # Inherits all methods/variables from the Pet class
     def talk(self):
         print(self.name + ' says woof!')
 ```
@@ -134,7 +134,7 @@ _footer: Credit to @Anto
 # Inheritance - super()
 - `super()` will refer to methods in the parent class
 ```python
-class Cat(Pet): # Inherits all methods/variables from the Animal class
+class Cat(Pet): # Inherits all methods/variables from the Pet class
     def __init__(self, name, owner, lives = 9):
         super().__init__(name, owner)
         # same as calling Pet.__init__(self, name, owner) from here
