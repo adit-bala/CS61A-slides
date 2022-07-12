@@ -149,7 +149,7 @@ class Cat(Pet): # Inherits all methods/variables from the Pet class
 ---
 # Mid-Semester Survey
 
-# [`http://go.cs61a.org/mid-sem-survey`](http://go.cs61a.org/mid-sem-survey)
+# [`http://go.cs61a.org/mid-sem-survey`](https://tinyurl.com/mid-survey)
 
 ---
 
