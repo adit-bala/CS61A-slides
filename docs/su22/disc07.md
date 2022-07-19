@@ -65,19 +65,20 @@ _backgroundColor: #2222
 <!-- 
 footer : cred to @Poggenkemper 
 _backgroundColor: #2222
+_color: 
  -->
 
 
 # Tree Terminology
-* <span style="color:#e2935a;">Parent Node</span>
+* Parent Node
     - A node that has branches 
-* <span style="color:#279284;">Child Node</span>
+* Child Node
     - A node with a parent
     - Can only have one parent
-* <span style="color:#233571;">Root</span>
+* Root
     - The top node in a tree
     - There is only one root for a tree
-* <span style="color:#f8d7ca;">Label</span>
+* Label
     - The value of a node
 
 ![bg auto right:45%](https://i.imgur.com/HVIBtFm.jpg)
@@ -89,14 +90,14 @@ _backgroundColor: #2222
  -->
 
 # More Tree Terminology
-* <span style="color:#1c3678;">Leaf</span>
+* Leaf
     - A node with no branches 
-* <span style="color:#eb5600;">Branch</span>
+* Branch
     - A subtree of the root
     - All branches are also trees
-* <span style="color:#6ba4c8;">Depth</span>
+* Depth
     - How far away a node is from the root
-* <span style="color:#1a9988;">Height</span>
+* Height
     - The depth of the lowest leaf
 
 ![bg auto right:45%](https://i.imgur.com/X50smTB.png)
