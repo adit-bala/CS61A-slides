@@ -69,7 +69,7 @@ _backgroundColor: #2222
 
 
 # Tree Terminology
-* <span style="color:#e2935b;">Parent Node</span>
+* <span style="color:#e2935a;">Parent Node</span>
     - A node that has branches 
 * <span style="color:#279284;">Child Node</span>
     - A node with a parent
