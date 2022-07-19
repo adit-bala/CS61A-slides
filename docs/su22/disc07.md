@@ -146,6 +146,9 @@ _backgroundColor: #2222
     * Can use `max`, `min`, `sum`, `any`, `all` on lists
 
 ---
+# Worksheet :smiley:
+
+---
 
 
 # <!-- fit --> Linked List :flushed: :fast_forward: :flushed: :fast_forward: :flushed:
@@ -194,6 +197,9 @@ Link(3)
 >>> Link(1, 2)
 
 ```
+
+---
+# Worksheet :smiley:
 
 ---
 
