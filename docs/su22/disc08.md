@@ -39,8 +39,9 @@ _backgroundColor: #2222
 - Ants released today
     - Checkpoint due Friday !!!
 - Magic: the Lambda-ing has been released
-    = OOP based
+    - OOP based
     - Smaller project (2 points EC)
+    - Due 7/28
 - HW04, Lab07, due Thursday
 - Have Scheme syntax page pulled up whenever coding
 - I do read all feedback and your answers to questions!
