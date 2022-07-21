@@ -188,8 +188,20 @@ scm> (square 4)
 ```
 
 ---
+<style scoped>
+  pre > code {
+    font-size: 180%;
+  }
+</style>
 
 # Q1: Virahanka-Fibonacci
+
+```python
+def virfib(n):
+    if n == 0 or n == 1:
+        return n
+    return virfib(n - 1) + virfib(n - 2)
+```
 
 ---
 
