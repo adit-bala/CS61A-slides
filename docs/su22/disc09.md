@@ -19,9 +19,9 @@ _footer: Slides available at [`teaching.aditbala.com`](https://teaching.aditbala
 _class: invert
 -->
 
-# <!--fit--> Discussion 08
+# <!--fit--> Discussion 09
 
-### Scheme
+### Tail Calls, Interpreters
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
@@ -269,7 +269,7 @@ class Pair:
     - Simple for `Calculator`, apply function to operands
 
 ---
-<!-- footer: creds to @Poggenkemper-->
+<!-- _footer: creds to @Poggenkemper-->
 
 # Evaluation Rules
 
@@ -283,6 +283,7 @@ class Pair:
 * Evaluation is recursive!
 
 ---
+<!-- _footer: creds to @Poggenkemper-->
 
 # Apply Rules
 
@@ -291,6 +292,11 @@ class Pair:
     - More complicated for Scheme since users can define their own procedures
 
 ---
+<style scoped>
+  pre > code {
+    font-size: 150%;
+  }
+</style>
 
 # Code for Evaluating and Applying
 
