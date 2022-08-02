@@ -383,6 +383,27 @@ GROUP BY division;
 `STEP BY STEP`
 
 ---
+<style scoped>
+  pre > code {
+    font-size: 160%;
+  }
+</style>
+# HAVING
+
+- Filter GROUPS with the HAVING clause
+
+```sql
+sqlite> SELECT title FROM records GROUP BY title 
+HAVING COUNT(*) > 1;
+```
+
+| title |
+| :-----|
+| `Programmer` |
+
+`STEP BY STEP`
+
+---
 
 # `Q9`, `Q10`, `Q11`
 
