@@ -36,6 +36,11 @@ _backgroundColor: #2222
 
 # Announcements :mega:
 
+- **Scheme Checkpoint 1** due today (8/2)
+- **Lab 10** due today (8/2)
+- **HW 06** due Thursday (8/4)
+- **Scheme Checkpoint 2** due Friday (8/5)
+- Scheme contest due Friday (8/5)
 
     
 ---
