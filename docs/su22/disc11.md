@@ -354,5 +354,36 @@ sqlite> SELECT COUNT(*) from RECORDS;
 9
 ```
 ---
+<style scoped>
+  pre > code {
+    font-size: 160%;
+  }
+</style> 
 
+# GROUP BY
 
+* group rows in a column to be aggregated with the GROUP BY clause
+
+```sql
+sqlite> SELECT division, MIN(salary) FROM records 
+GROUP BY division;
+```
+
+| division      | MIN(salary) |
+| :----------- | :----------- |
+| `Accounting`      | 	`18000`       |
+| `Administration`      | 	`150000`       |
+| `Computer`      | 	`25000`       |
+
+`STEP BY STEP`
+
+---
+
+# `Q9`, `Q10`, `Q11`
+
+---
+# Thank you!!!
+
+### Attendance Form -> https://tinyurl.com/adit-disc11
+
+### Anon Feedback -> https://tinyurl.com/adit-anon
