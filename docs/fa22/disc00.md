@@ -63,7 +63,7 @@ _class: lead invert
 * Major: Computer Science & Data Science
 * Origin: Maryland
 * Hobbies:
-  * Ping Pong
+  * Basketball, Volleyball, Ping Pong
   * Blogging/Journaling
   * Closet Weeb
 
@@ -88,7 +88,7 @@ _class: lead invert
 
 ## Logistics - Discussions
 
-* Tu/Th 1:00-2:30PM @ Soda 306
+* TBD
 * Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
@@ -96,7 +96,7 @@ _class: lead invert
 * Worksheets can be found at [`cs61a.org`](cs61.org)
 * Attendance
   - Recorded with Google Form
-  - Must **attend** at least 8 Discussions (Disc 00 does not count)
+  - Must **attend** at least 8 Discussions (This one does **NOT** count)
 
 
 ---
@@ -107,14 +107,14 @@ _class: lead invert
 
 ## Logistics - Labs
 
-* M/W 9:30-11:00 AM @ Soda 330
+* TBD
 * Coding time :smiling_imp:!
 * Structure
-  - Mini Lecture?
+  - Mini Lecture
   - Work on Lab
   - Learn with classmates + help from me (and maybe others)
 * Attendance
-  - Must **attend** at least 8 labs (Lab 0 does not count)
+  - Must **attend** at least 8 labs (Lab 00 does not count for participation)
 
 
 ---
@@ -126,11 +126,11 @@ _class: lead invert
 ## Logistics - Course
 
 * Homework (8)
-  - Released on **Monday**, Due **Thursday**
+  - Released on **Friday**, Due **Thursday**
   - Scored on correctness (partial credit awarded)
   - Lowest score dropped
 * Lab (12)
-  - Released **Mon/Wed**, Due **following day**
+  - Released **Monday**, Due **Wednesday**
   - Scored on completion
 * Projects (4)
   - Released throughout course
@@ -210,7 +210,7 @@ _class: lead invert
 * Resources
   - Office Hours
   - Discussion
-  - Tutor Sections
+  - CSM
   - Past Exams & Video Walkthroughs
 
 ---
@@ -222,24 +222,8 @@ _class: lead invert
 ## Advice
 
 - You are not in this alone!
-  * I know what's it like to struggle in this class am here for you guys :grin:
+  * I know what's it like to struggle in this class am here for y'all :grin:
   * Email me for any 61a course related advice or anything in between - I'll try to respond within 24 hours, or send a follow-up if I don't.
-  * Feel free to ask me for any tips related to CS, courses, teaching, apartment searching, clubs, or anything else (can't gurantee quality lol)
-
----
-
-<!--
-_class: lead invert
--->
-
-## Mental Health Resources
-
-- Counseling and Psychological Services
-  - For consultation about students of concern and for help connecting students to counseling or other resources
-  - 510-642-9494
-- After-Hours Assistance Line
-  - For consultation with a counselor after CPS business hours and as a crisis resource for students after business hours
-  - (855) 817-5667
 
 ---
 
@@ -247,15 +231,9 @@ _class: lead invert
 _class: invert
 -->
 
-# Any Questions?
+# Thank you!
 
-## Intro Survey (Needed to record Attendance)
+### Attendance Form -> https://tinyurl.com/adit-disc00
 
-https://tinyurl.com/adit-welcome - won't be as long in future :hugs:
+### Anon Feedback -> https://tinyurl.com/adit-anon
 
-## Anonymous Feedback
-
-https://tinyurl.com/adit-anon - Anything you want to see from me?
-
-
-### For questions/concerns: aditbala [at] berkeley [dot] edu
