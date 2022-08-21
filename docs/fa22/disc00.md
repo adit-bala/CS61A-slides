@@ -88,7 +88,8 @@ _class: lead invert
 
 ## Logistics - Discussions
 
-* TBD
+* Discussion @ Soda 405 
+  - Thu 2:00pm → 3:30pm
 * Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
@@ -96,7 +97,7 @@ _class: lead invert
 * Worksheets can be found at [`cs61a.org`](cs61.org)
 * Attendance
   - Recorded with Google Form
-  - Must **attend** at least 8 Discussions (This one does **NOT** count)
+  - Must **attend** at least 10 Discussions (This one does **NOT** count)
 
 
 ---
@@ -107,14 +108,15 @@ _class: lead invert
 
 ## Logistics - Labs
 
-* TBD
+* Lab @ Soda 271
+  - Tue 2:00pm → 3:30pm
 * Coding time :smiling_imp:!
 * Structure
   - Mini Lecture
   - Work on Lab
-  - Learn with classmates + help from me (and maybe others)
+  - Learn with classmates + help from me (and AIs)
 * Attendance
-  - Must **attend** at least 8 labs (Lab 00 does not count for participation)
+  - Must **attend** at least 10 labs (Lab 00 does not count for participation)
 
 
 ---
@@ -125,7 +127,7 @@ _class: lead invert
 
 ## Logistics - Course
 
-* Homework (8)
+* Homework (11)
   - Released on **Friday**, Due **Thursday**
   - Scored on correctness (partial credit awarded)
   - Lowest score dropped
