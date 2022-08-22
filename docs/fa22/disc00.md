@@ -88,8 +88,8 @@ _class: lead invert
 
 ## Logistics - Discussions
 
-* Discussion @ Soda 405 
-  - Thu 2:00pm → 3:30pm
+* Discussion @ Soda 320 
+  - Thu 3:30pm → 5:00pm
 * Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
@@ -108,8 +108,8 @@ _class: lead invert
 
 ## Logistics - Labs
 
-* Lab @ Soda 271
-  - Tue 2:00pm → 3:30pm
+* Lab @ Soda 275
+  - Tue 11:30am → 12:30pm
 * Coding time :smiling_imp:!
 * Structure
   - Mini Lecture
