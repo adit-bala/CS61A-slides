@@ -60,7 +60,7 @@ _class: lead invert
 
 * Grade: Sophomore
 * \# Teaching Sem: 2
-* Major: Computer Science & Data Science
+* Major: Computer Science & Data Science (?)
 * Origin: Maryland
 * Hobbies:
   * Basketball, Volleyball, Ping Pong
@@ -78,6 +78,7 @@ _class: lead invert
   - Name & Pronouns (if you want)
   - Grade & Major
   - Hobbies
+- Exchange contact information!
 - As a group, try to find as many things that everyone in your group has in common (cannot be related to college or classes; I know you're all taking 61a at Berkeley :))
 
 ---
@@ -88,8 +89,8 @@ _class: lead invert
 
 ## Logistics - Discussions
 
-* Discussion @ Soda 320 
-  - Thu 3:30pm → 5:00pm
+* Discussion @ Soda 405 
+  - Thu 2:00pm → 3:30pm
 * Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
@@ -108,8 +109,8 @@ _class: lead invert
 
 ## Logistics - Labs
 
-* Lab @ Soda 275
-  - Tue 11:30am → 12:30pm
+* Lab @ Soda 271
+  - Tue 2:00pm → 3:30pm
 * Coding time :smiling_imp:!
 * Structure
   - Mini Lecture
