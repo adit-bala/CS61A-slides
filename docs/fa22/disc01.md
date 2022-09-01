@@ -21,7 +21,7 @@ _class: invert
 
 # <!--fit--> Discussion 01
 
-### Variables and Functions, Control, Environment Diagrams
+### Control, Environment Diagrams
 
 Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
@@ -36,8 +36,12 @@ _backgroundColor: #2222
 
 # Announcements :mega:
 
-- Technial OH 1-4pm in Cory 521 on Thursday (6/23) and 1-3pm in Cory 521 on Friday (6/24)
-- Some appointment based OH on Thursday and Friday and signups for those will occur at midnight the night before at `oh.cs61a.org` . The schedule for OH can also be found at `https://cs61a.org/office-hours/`
+- Last chance to change sections on sections.cs61a.org is 11:59pm Wed 9/14.
+- Request to change to CS 10 at 2pm on Wed 8/31 (on Ed).
+- Lab 1 is due 11:59pm Wednesday 8/31.
+- Homework 1 is due 11:59pm Thursday 9/1.
+- Lots of office hours are available to help you.
+- Zoom access (go.cs61a.org/lecturezoom) to live lecture will be offered all semester.
 
 ---
 
@@ -226,7 +230,7 @@ if wallet == 0:
 
 ---
 
-# Worksheet (walkthrough + practice)
+# Worksheet
 
 ---
 
@@ -336,10 +340,6 @@ _backgroundColor: #2222
 
 ---
 
-[SIMPLIFY THIS NO PARENTS NO RETURING FUNCTIONS]
-
----
-
 
 <!-- 
 _class: invert
@@ -392,47 +392,6 @@ x = 11 % 4
 y = x
 x **= 2
 ```
----
-
-<!-- 
-_class: invert
--->
-
-## Interactive Example
-
-<style scoped>
-  pre > code {
-    font-size: 170%;
-  }
-</style>
-
-```python
-x = 3
-
-def square(x):
-    return x ** 2
-
-square(2)
-```
-- Let's create an enviroment diagram for this program!
-- Start from top, go to bottom
-
----
-
-<!-- 
-_class: invert
--->
-
-## Frame
-
-- Frames are objects that list bindings of **variables** and **values**
-    - tell us how to look up bindings
-- **Global Frame** exists by default
-- Assignment statement (denoted by =) creates binding of **variable** `x` and **values** `3` 
-
-
-![bg auto right:50%](https://i.imgur.com/olxuGij.jpg)
-
 
 ---
 
@@ -467,11 +426,7 @@ _class: invert
 
 # Thank you!
 
-### Attendance Form -> `https://tinyurl.com/adit-disc01`
-
 ### Anon Feedback -> `https://tinyurl.com/adit-anon`
-
-### Study Groups -> Will send out in email
 
 
 
