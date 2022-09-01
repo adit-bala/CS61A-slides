@@ -79,16 +79,16 @@ _class: invert
 
 # Boolean Operators
 
-- `not <conditional expression>`
-  - returns opposite of `<conditional expression>`
-  - `not (1 == 2)` -> `True`
-- `<conditional expression> or <conditional expression> `
-  - returns the first **Truthy** value it finds, `False` if none
-  - `0 or None or 1` -> `1`
-- `<conditional expression> and <conditional expression> `
-  - return first **Falsey** value, or last value if everything is true
-  - `40 and 0 and True` -> 0
-  - `40 and 1 and True` -> True
+* `not <conditional expression>`
+  * returns opposite of `<conditional expression>`
+  * `not (1 == 2)` -> `True`
+* `<conditional expression> or <conditional expression> `
+  * returns the first **Truthy** value it finds, `False` if none
+  * `0 or None or 1` -> `1`
+* `<conditional expression> and <conditional expression> `
+  * return first **Falsey** value, or last value if everything is true
+  * `40 and 0 and True` -> 0
+  * `40 and 1 and True` -> True
 
 ---
 
@@ -98,15 +98,15 @@ _class: invert
 
 ## Short Circuiting
 
-- Sort of like making an assumption
+* Sort of like making an assumption
 
-  - If I'm broke, then I don't need to check the price of boba since I'll never be able to buy it **lol** :cry:
+  * If I'm broke, then I don't need to check the price of boba since I'll never be able to buy it **lol** :cry:
 
-- `and` will stop at the first **Falsey** value and return it
+* `and` will stop at the first **Falsey** value and return it
 
-- `or` will stop at the first **Truthy** value and return it
-- Why is this important?
-  - May not need to evaluate all expressions. Even if there is an expression that errors, e.g. `1/0`, `and`/`or` expression might short circuit before it reaches error
+* `or` will stop at the first **Truthy** value and return it
+* Why is this important?
+  * May not need to evaluate all expressions. Even if there is an expression that errors, e.g. `1/0`, `and`/`or` expression might short circuit before it reaches error
 
 ---
 
@@ -116,15 +116,15 @@ _class: invert
 
 ## Boolean Examples
 
-- `0 or 435 or False`
-  - returns `435`
-- `True and "Hello" and 0`
-  - returns `0`
-- Short Circuiting
-- `3 and 1/0 and False`
-  - returns `Error`
-- `3 and False and 1/0`
-  - returns `False`
+* `0 or 435 or False`
+  * returns `435`
+* `True and "Hello" and 0`
+  * returns `0`
+* Short Circuiting
+* `3 and 1/0 and False`
+  * returns `Error`
+* `3 and False and 1/0`
+  * returns `False`
 
 ---
 
@@ -324,8 +324,8 @@ while x > 0:
     print(x)
 ```
 
-- This will result in an infinite loop
-- Make sure you are modifying the condition in the while loop
+* This will result in an infinite loop
+* Make sure you are modifying the condition in the while loop
 
 ---
 
@@ -344,10 +344,10 @@ _class: invert
 
 ## Enviroment Diagrams
 
-- What are they?
+* What are they?
   - A way to model how our program runs line by line
   - Keep track of variables, function calls and what they return, etc.
-- Why use them?
+* Why use them?
   - Can help us understand where there is a bug in program (debugging)
   - Useful for other questions (WWPD, coding)
   - Exam points!
@@ -356,10 +356,10 @@ _class: invert
 
 ## Important Concepts
 
-- Expressions
+* Expressions
   - Evaluate to values
   - `1 + 1` -> `2`
-- Assignment Statements
+* Assignment Statements
   - Bind (left side) **names** to (right side) **values**
   - **Names**
     - variable names
@@ -411,6 +411,6 @@ x **= 2
 
 # Thank you!
 
-### Attendance -> [`teaching.aditbala.com`](https://teaching.aditbala.com)
+### Attendance (linked on website) -> [`teaching.aditbala.com`](https://teaching.aditbala.com)
 
 ### Anon Feedback -> [`https://tinyurl.com/adit-anon`](https://teaching.aditbala.com)
