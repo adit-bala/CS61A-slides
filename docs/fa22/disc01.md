@@ -46,7 +46,7 @@ _backgroundColor: #2222
 ---
 
 # <!-- fit --> All Slides can be found on 
-# `teaching.aditbala.com`
+# [`teaching.aditbala.com`](https://teaching.aditbala.com)
 
 ---
 
@@ -226,8 +226,6 @@ if wallet == 0:
     - Hints are very useful
     - Doctests are SUPER useful
 
-
-
 ---
 
 # Worksheet
@@ -362,13 +360,14 @@ _class: invert
 * Expressions
     - Evaluate to values
     - `1 + 1` -> `2`
-* Statements
-    - Bind **names** to **values**
+* Assignment Statements
+    - Bind (left side) **names** to (right side) **values**
     - **Names**
-        - `def` statements, assignment statements, </br> variable names
+        - variable names
     - **Values**
-        - numbers, strings, functions, or other objects
-    - `x = 2`
+        - Evaluate right side before binding
+    - `x = 2 * 2`
+    - `x -> 4`
     - doesn't return anything
 
 ---
@@ -407,27 +406,13 @@ x **= 2
 
 ![auto vertical](https://i.imgur.com/QFXAaeW.jpg)
 
----
-
-## Call Expressions
-
-- Syntax: `function_name(arg1, arg2, ...)`
-- Create new frame for call expression
-- Steps for evaluating:
-    1. Evaluate operator (function)
-        - See if it exists
-    2. Evaluate operands (args)
-        - simplify args
-    3. Apply operator to the operands
-
-![bg auto fit right:50%](https://i.imgur.com/10hFWgc.jpg)
-
----
+--- 
 
 # Thank you!
 
-### Anon Feedback -> `https://tinyurl.com/adit-anon`
+### Attendance -> [`teaching.aditbala.com`](https://teaching.aditbala.com)
 
+### Anon Feedback -> [`https://tinyurl.com/adit-anon`](https://teaching.aditbala.com)
 
 
 
