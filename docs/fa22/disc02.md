@@ -30,30 +30,20 @@ Aditya Balasubramanian
 
 <!-- 
 _class: invert
-_footer: 6/28
+_footer: 9/6
 _backgroundColor: #2222
 -->
 
 # <!-- fit --> Announcements :mega:
 
-- First Project (Hog) released !!!
-    - Checkpoint due 7/1 (1pt)
-    - Project due 7/6
-    - Extra Credit (1pt, due 7/5)
-- First Homework released (HW01)
-    - Getting started videos
-    - Due Thursday (6/30)
-- Quick note
-    - 61a is 2x speed
-    - Make sure to use resources
-    - [Tutoring Sections](https://tutorials.cs61a.org/) have opened!
 ---
-## Boolean Expressions Clarification
+## Clarifications from last discussion
 
- *  `True and not False or not True and False`
- *  `(True and (not False)) or ((not True) and False)` -> `True`
- * `False or 1 and 4`
- * `False or (1 and 4)` -> `4`
+ *  Priority of booleans
+  1. not
+  2. and
+  3. or
+* something about last return form
 
 
 ---
