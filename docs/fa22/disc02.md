@@ -34,6 +34,7 @@ Aditya Balasubramanian
   2. `and`
   3. `or`
 * Return the last thing you evaluate
+* 4 and not 5 or 8
 * Lab mini-lecture
 ---
 
@@ -55,6 +56,9 @@ _backgroundColor: #2222
   - Arrive at 7pm if you can; the 110-minute, 30-point exam will begin at 7:10pm.
   - Complete [this form for any exam alteration request](https://go.cs61a.org/exam-alts) (left-handed desk, DSP accommodation, conflict, etc.) by 11:59pm Friday 9/9.
 
+
+---
+# Midterm Advice
 
 
 ---
@@ -574,33 +578,6 @@ def make_keeper(n):
 
 ---
 
-<style scoped>
-  pre > code {
-    font-size: 145%;
-  }
-</style>
-
-```python 
-def make_keeper(n):
-    """Returns a function which takes one parameter cond and prints
-    out all integers 1..i..n where calling cond(i) returns True.
-
-    >>> def is_even(x):
-    ...     # Even numbers have remainder 0 when divided by 2.
-    ...     return x % 2 == 0
-    >>> make_keeper(5)(is_even)
-    2
-    4
-    """
-     def keeper(cond):
-      i = 1
-      while (i <= n):
-        if cond(i):
-          print(i)
-        i += 1
-    return keeper # remember this line
-```
----
 # `Q7`
 ---
 
