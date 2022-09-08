@@ -27,6 +27,16 @@ Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
 
 ---
+## Clarifications from last discussion
+
+ *  Priority of booleans
+  1. `not`
+  2. `and`
+  3. `or`
+* Return the last thing you evaluate
+* Lab mini-lecture
+---
+
 
 <!-- 
 _class: invert
@@ -35,15 +45,16 @@ _backgroundColor: #2222
 -->
 
 # <!-- fit --> Announcements :mega:
+- Hog is due Friday 9/9 @ 11:59pm.
+  - Early submission bonus point for finishing by Thursday 9/8 @ 11:59pm.
+- Homework 2 is due Thursday 9/8 @ 11:59pm.
+- Midterm 1 is Monday 9/12 7pm-9pm at various locations around campus.
+  - Read the [midterm logistics post](https://edstem.org/us/courses/25379/discussion/1739561)!
+  - You will be provided with a printed copy of the [Midterm 1 Study Guide](https://cs61a.org/assets/pdfs/61a-mt1-study-guide.pdf).
+  - Your assigned seat and room will be sent to you on Sunday 9/11.
+  - Arrive at 7pm if you can; the 110-minute, 30-point exam will begin at 7:10pm.
+  - Complete [this form for any exam alteration request](https://go.cs61a.org/exam-alts) (left-handed desk, DSP accommodation, conflict, etc.) by 11:59pm Friday 9/9.
 
----
-## Clarifications from last discussion
-
- *  Priority of booleans
-  1. not
-  2. and
-  3. or
-* something about last return form
 
 
 ---
@@ -590,11 +601,9 @@ def make_keeper(n):
     return keeper # remember this line
 ```
 ---
+# `Q7`
+---
 
 # Thank you!
 
-### Attendance Form -> https://tinyurl.com/adit-disc02
-
 ### Anon Feedback -> https://tinyurl.com/adit-anon
-
-### Study Groups -> https://tinyurl.com/adit-study
