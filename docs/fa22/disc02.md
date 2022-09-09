@@ -34,7 +34,7 @@ Aditya Balasubramanian
   2. `and`
   3. `or`
 * Return the last thing you evaluate
-* 4 and not 5 or 8
+* 4 and not 5 or 8 or 9
 * Lab mini-lecture
 ---
 
