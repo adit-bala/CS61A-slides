@@ -164,49 +164,9 @@ def skip_mul(n):
 ---
 # Choose your own adventure !!!
 ## `Q3`, `Q4`, `Q5`
----
-<!-- 
-_backgroundColor: #2222
--->
-
-# <!-- fit --> Tree Recursion :deciduous_tree:
 
 ---
 
-## Tree Recursion
-
-* What is Tree Recursion?
-    - Recursion, but with more recursive calls
-    - Can break down the problem in more than one way
-    - With all of the options drawn out, looks like a tree of recursive calls
-* When and Why?
-    - Useful when the original problem can be broken down in multiple ways
-    - Accumulate all sub-problems with multiple recursive calls
----
-<style scoped>
-  pre > code {
-    font-size: 145%;
-  }
-</style>
-
-# Recursive Fibonacci
-```python
-def fib(n):
-  if n == 0:
-    return 0
-  elif n == 1:
-    return 1
-  else:
-    return fib(n - 1) + fib(n - 2)
-```
-
-* Need to look at `fib(n - 1)` and `fib(n-1)`
-* All steps of recursion present
-    - Base Case
-    - Recursive Calls
-    - Applying to solve problem
-
----
 
 # Thank you!
 
