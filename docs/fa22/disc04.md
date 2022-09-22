@@ -104,10 +104,9 @@ _backgroundColor: #2222
 
 - An indexed collection of any data type
 - Examples of valid lists:
-    - `[1, 2, 3]`
-    - `[True, False, 'boo']`
-    - `[[4], [3, 6, 7], [8]]`
-- Environment diagrams
+    - `list_of_ints = [1, 2, 3, 4]`
+    - `list_of_bools = [True, True, False, False]`
+    - `nested_lists = [1, [2, 3], [4, [5]]]`
 
 --- 
 
@@ -142,9 +141,6 @@ style: |
 ```
 
 ---
-# What questions do we have?
----
-
 # Q3: WWPD (Lists)
 
 ---
@@ -179,19 +175,16 @@ style: |
 >>> a[::-1]
 [['cat'], True, 89, 7]
 
->>> a[:3:-1]
-[]
+>>> a[:2:-1] # go backwards until STOP index
+[['cat']]
 ```
-
----
-# What questions do we have?
 
 ---
 
 ## List Comprehension
 
 * How do you create a list that fits some criteria?
-e.g. How would you create a list with numbers 1 - 4, but squared
+e.g. How would you create a list with numbers 1...4, but squared
 `[1, 4, 9, 16]`
 * List Comprehension: creating a list based on expressions filtering other lists
 * Syntax: `[<expression> for <value> in <sequence> [if <filter>]]`
@@ -210,28 +203,15 @@ e.g. How would you create a list with numbers 1 - 4, but squared
 >>> a = [x**2 for x in range(1, 5)]
 
 >>> a
-[1, 2, 9, 16]
+[1, 4, 9, 16]
 
 >>> [x/2 for x in [x for x in a if x % 2 == 0]]
 [1, 8]
 
 ```
 ---
+
 # `Q3`, `Q4`, `Q5`
-
----
-
-<style scoped>
-  pre > code {
-    font-size: 145%;
-  }
-</style>
-
-# Dictionaries :book:
-
-* Maps `keys` to `values`
-* Doesn't really have an order
-* Access elements using `keys` rather than indices
 
 ---
 <style scoped>
@@ -243,6 +223,7 @@ e.g. How would you create a list with numbers 1 - 4, but squared
 # Dictionaries :book:
 
 - Maps `keys` to `values`
+- `keys` must be immutable, `values` can be mutable
 - Doesn't really have an order
 - Access elements using `keys` rather than indices
 - Defined with curly braces (`{}`)
