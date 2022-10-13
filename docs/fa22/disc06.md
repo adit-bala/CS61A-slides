@@ -222,17 +222,14 @@ for i in iterable:
 
 ---
 
-`Worksheet`
-
----
-
-# Mid-Semester Survey
-
-# [`http://go.cs61a.org/mid-sem-survey`](https://go.cs61a.org/midsem-survey)
+# `Worksheet`
 
 ---
 
 # Thank you
+
+
+### Mid-Semester Survey -> [`http://go.cs61a.org/mid-sem-survey`](https://go.cs61a.org/midsem-survey)
 
 
 ### Anon Feedback -> https://tinyurl.com/adit-anon
