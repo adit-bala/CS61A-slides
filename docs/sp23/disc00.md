@@ -34,24 +34,7 @@ _footer: 8/27/22
 _backgroundColor: #2222
 -->
 
-## <!-- fit --> Announcements :mega:
-
----
-
-## Agenda
-
-<!--
-_class: lead invert
--->
-
-- About Me
-- Icebreaker
-- Logistics
-- Lost on the Moon
-- About 61A
-- Advice/Resources
-- Survey
-- Q & A
+## <!-- fit --> Announcements :speaker:
 
 ---
 
@@ -62,9 +45,9 @@ _class: lead invert
 - Major: Computer Science
 - Origin: Maryland
 - Hobbies:
-  - Basketball, Volleyball, Ping Pong
-  - Board Games, Puzzles, Coding
-  - Closet Weeb
+  * Basketball, Volleyball, Ping Pong
+  * Board Games, Puzzles, Coding
+  * Closet Weeb
 
 ![bg right](https://i.imgur.com/WNUiTk7.jpg)
 
@@ -234,6 +217,6 @@ _class: invert
 
 # Thank you!
 
-### Attendance Form -> https://teaching.aditbala.com 
+### Attendance Form -> [`https://teaching.aditbala.com`](https://teaching.aditbala.com) [disc00] -> [attendance](https://links.aditbala.com/disc00/)
 
-### Anon Feedback -> https://tinyurl.com/adit-anon
+### Anon Feedback -> [`https://tinyurl.com/adit-anon`](https://tinyurl.com/adit-anon)
