@@ -30,8 +30,7 @@ Aditya Balasubramanian
 
 <!--
 _class: invert
-_footer: 8/27/22
-_backgroundColor: #2222
+_footer: 1/18/23
 -->
 
 # Announcements :speaker:
