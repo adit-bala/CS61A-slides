@@ -34,7 +34,10 @@ _footer: 8/27/22
 _backgroundColor: #2222
 -->
 
-## <!-- fit --> Announcements :speaker:
+# Announcements :speaker:
+
+- HW 01 releases `Friday`, due next `Thursday`
+- First lab next `Monday`
 
 ---
 
@@ -59,7 +62,7 @@ _backgroundColor: #2222
 - Sample Questions:
   - Name & Pronouns (if you want)
   - Grade & Major
-  - Hobbies
+  - What's your ideal day in Berkeley
 - **Exchange contact information**!
 - As a group, try to find as many things that everyone in your group has in common (cannot be related to college or classes; I know you're all taking 61a at Berkeley :))
 
@@ -76,11 +79,11 @@ _class: lead invert
 - Structure
   - Review Material
   - Practice Problems Together (range in difficulty)
-  - Will not get through all the practice problems
+  - Place to ask questions!
 - Worksheets can be found at [`cs61a.org`](cs61.org)
 - Attendance
   - Recorded with Google Form
-  - Must **attend** at least 10 Discussions (This one does **NOT** count)
+  - Must **attend** at least `10` Discussions (This one does **NOT** count)
 
 ---
 
@@ -99,6 +102,7 @@ _class: lead invert
   - Learn with classmates + help from me (and AIs)
 - Attendance
   - Must **attend** at least 10 labs (Lab 00 does not count for participation)
+  - More information later on finishing lab before section for attendance
 
 ---
 
@@ -109,15 +113,16 @@ _class: lead invert
 ## Logistics - Course
 
 - Homework (11)
-  - Released on **Friday**, Due **Thursday**
+  - Released on `Friday`, Due `Thursday`
   - Scored on correctness (partial credit awarded)
   - Lowest score dropped
 - Lab (12)
-  - Released **Monday**, Due **Wednesday**
+  - Released `Monday` Due `Wednesday`
   - Scored on completion
 - Projects (4)
   - Released throughout course
   - Can work with partner
+- Submitting Assignments -> `Gradescope`
 
 ---
 
@@ -191,11 +196,12 @@ _class: lead invert
   - Study Group!
   - Don't be afraid to ask for help
 - Resources
+  - Discussion/CSM
   - Denero Videos
   - Office Hours
-  - Discussion
-  - CSM
   - Past Exams & Video Walkthroughs
+  - EdStem
+  - Extensions
 
 ---
 
@@ -208,6 +214,20 @@ _class: lead invert
 - You are not in this alone!
   - I know what's it like to struggle in this class am here for y'all :grin:
   - Email me for any 61a course related advice or anything in between - I'll try to respond within 24 hours, or send a follow-up if I don't.
+
+---
+# An Exciting Time
+
+Yes... 61a can be very stressful, but with the knowledge you gain from this class, you can do
+
+[this](https://github.com/adit-bala/chores) and become this [meme](https://www.reddit.com/r/ProgrammerHumor/comments/bqzc9m/i_would_rather_spend_hours_making_a_program_to_do/)
+
+or [this](https://github.com/adit-bala/twiccord) and make your friends [proud](https://imgur.com/a/GQaLHNB)
+
+maybe [this](https://github.com/adit-bala/AOC-2022) and ruin your sleeping schedule and finals studying at the same time
+
+but more generally, 61a is the beginning of y'all being able to translate all of your cool ideas into actual programs!
+
 
 ---
 
