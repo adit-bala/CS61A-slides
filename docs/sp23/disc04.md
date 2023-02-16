@@ -36,11 +36,13 @@ _backgroundColor: #2222
 
 ## Announcements :mega:
 
-- Homework 3 & the optional Busy Beaver contest are due Thursday 9/22
-- Project 2: Cats due on Friday 9/30
-    - Checkpoint due Tuesday 9/28
-    Bonus point for submitting by Thursday 9/29.
-    - Try out the finished project on cats.cs61a.org.
+- Homework 3 deadline extended to Friday 2/17.
+
+- No office hours on Friday, so finish it by Thursday if you want help.
+- Project 2 (C.A.T.S.) is due Friday 2/24.
+
+  - Checkpoint (Phase 1) due Tuesday 2/21.
+  - Early submission bonus point for finishing by Thursday 2/23.
 
 
 
