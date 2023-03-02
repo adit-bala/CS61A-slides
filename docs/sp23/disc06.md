@@ -228,6 +228,28 @@ Beginning countdown!
 
 ---
 
+``` python
+>>> def rec_countdown(n):
+...     if n < 0:
+...         print("Blastoff!)
+...     else:
+...         yield n
+...         yield from rec_countdown(n-1)
+...
+>>> r = rec_countdown(2)
+>>> next(r)
+2
+>>> next(r)
+1
+>>> next(r)
+0
+>>> next(r)
+Blastoff!
+StopIteration
+```
+
+---
+
 # `Worksheet`
 
 ---
