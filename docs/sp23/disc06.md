@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover
+theme: default
 class: invert
 style: |
     section {
@@ -36,7 +36,8 @@ _backgroundColor: #2222
 
 ## Announcements :mega:
 
-- Homework 4 is due Thursday 10/6.
+- Homework 4 is due Thursday 3/2.
+- Lab policies
 
 ---
 
@@ -123,7 +124,8 @@ True
     - An object that iterates over **iterables**, anything you can loop over
 * Why use them?
     - Lazy evaluation
-    - [this](https://twitter.com/pamelafox/status/1500913119266172928)
+    - [hm](https://twitter.com/pamelafox/status/1500913119266172928)
+    - [maybe this](https://github.com/adit-bala/chores/blob/main/chores.py)
 
 ---
 
@@ -213,12 +215,16 @@ Beginning countdown!
 
 # `yield from`
 
-* `yield from iterable`
+* `yield from <iterable>`
+    - `yield from [1,2,3,4]`
+* `yield from <generator_func>`
+    - recursive use of `yield from`
 
-```python
-for i in iterable:
-    yield i
-```
+* equivalent to
+    ```python
+    for i in iterable:
+        yield i
+    ```
 
 ---
 
@@ -227,9 +233,6 @@ for i in iterable:
 ---
 
 # Thank you
-
-
-### Mid-Semester Survey -> [`http://go.cs61a.org/mid-sem-survey`](https://go.cs61a.org/midsem-survey)
 
 
 ### Anon Feedback -> https://tinyurl.com/adit-anon

@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover
+theme: default
 class: invert
 style: |
     section {
