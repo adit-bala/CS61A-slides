@@ -80,4 +80,4 @@ _backgroundColor: #2222
 
 - Base *a* to decimal
     - \_ _ _ _ _ _
-       a
+       a<sup>2</sup>
