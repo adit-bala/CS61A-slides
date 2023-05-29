@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover
+theme: default
 class: invert
 style: |
     section {
@@ -27,7 +27,11 @@ Aditya Balasubramanian
 `aditbala [at] berkeley [dot] edu`
 
 ---
-
+<!-- 
+_class: invert
+_footer: Slides available at [`teaching.aditbala.com`](https://teaching.aditbala.com)
+_backgroundColor: #2222
+-->
 ## About Me
 
 - Grade: Junior
@@ -35,18 +39,16 @@ Aditya Balasubramanian
     - 61a: `3`
     - 61c: `1`
 - Major: Computer Science
-- Origin: <!-- 
-_class: invert
-_footer: __/__
-_backgroundColor: #2222
--->Maryland
+- Origin: Maryland
 - Hobbies:
   * Reading, Gymming, Bouldering (?)
 
 ![bg right](https://i.imgur.com/WNUiTk7.jpg)
 
 ---
-
+<!-- 
+_footer: ""
+-->
 
 ## Announcements :mega:
 
@@ -110,8 +112,8 @@ _backgroundColor: #2222
 ---
 <!-- 
 _class: invert
-_footer: __/__
-_backgroundColor: #8888
+_footer: ""
+_backgroundColor: #3333
 -->
 
 # What about negative numbers?
