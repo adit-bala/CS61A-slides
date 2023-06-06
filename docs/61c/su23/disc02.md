@@ -214,7 +214,7 @@ _backgroundColor: #3333
     - Primarily constants that don’t need to be changed
     CAN be changed, e.g. global variables
 
-![bg right]("../../../../../res/ms.png")
+![bg right w:650 h:600](https://i.imgur.com/xbAbTmI.png)
 
 ---
 # Memory Structure (Pt.2)
@@ -225,11 +225,10 @@ _backgroundColor: #3333
     - MUST be freed!!!
     - Grows bottom-up
 - Stack
-    - Memory that is “automatically” allocated by the system
-    - Will be “freed” by the system
+    - Memory that is “automatically” allocated and "freed" by the system
     - Grows top-down
 
-![bg right]("../../../../../res/ms.png")
+![bg right w:650 h:600](https://i.imgur.com/xbAbTmI.png)
 
 ---
 <!-- 
@@ -243,6 +242,7 @@ _backgroundColor: #3333
 - Big endian: most significant byte @ smallest address
 - Little endian: most significant byte @ largest address
 - Base line: if you store something into memory, you should be able to read out the same value! (double flipping)
+![bg right w:650 h:550](https://i.imgur.com/e6yhLL2.png)
 
 
 

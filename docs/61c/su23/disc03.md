@@ -54,7 +54,9 @@ _backgroundColor: #3333
 
 # Floating Point Conversion
 
-ADD PICTURES
+
+
+![bg right w:650 h:250](https://i.imgur.com/6uGHJll.png)
 
 ---
 
@@ -112,7 +114,7 @@ Assembly is...
 - Anything can be stored in them (no types)
 - NOT A VARIABLE
 
-INSERT IMAGE
+![bg right w:350 h:675](https://i.imgur.com/MlluOlZ.png)
 
 ---
 
