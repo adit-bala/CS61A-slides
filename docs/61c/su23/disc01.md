@@ -38,10 +38,10 @@ _backgroundColor: #2222
 - \# Teaching Sem: `4`
     - 61a: `3`
     - 61c: `1`
-- Major: Computer Science
-- Origin: Maryland
-- Hobbies:
-  * Reading, Gymming, Bouldering (?)
+- Major: `Computer Science`
+- Origin: `Maryland`
+- Interests:
+  - `Reading`, `Gymming`, `Blogging`, `Coffee`
 
 ![bg right](https://i.imgur.com/WNUiTk7.jpg)
 
@@ -52,6 +52,13 @@ _footer: ""
 
 ## Announcements :mega:
 
+- `Lab 0`
+    - Due: `Monday, June 26th`
+- `Homework 1`
+    - Due: `Wednesday, June 28th`
+- `Project 1`
+    - Due: `Friday, June 30th`
+- Advice :D
 
 ---
 
@@ -110,23 +117,6 @@ _footer: ""
    2⁷ 2⁶ 2⁵ 2⁴ 2³ 2² 2¹ 2⁰
 
 ---
-<!-- 
-_class: invert
-_footer: ""
-_backgroundColor: #3333
--->
-
-# What about negative numbers?
-
-#### Q: How to identify if a number is representable or not in a certain binary notation?
-
-#### A:
-
-
-- Check if the number is in the range of the representable numbers
-- As a clarifying check, try to convert it to binary, then look at the binary and convert it back - is it the same number?
-
----
 
 # Sign-Magnitude Notation
 
@@ -134,10 +124,8 @@ _backgroundColor: #3333
 - \____ __ __ __ __ __ __ __
    sign 2⁶ 2⁵ 2⁴ 2³ 2² 2¹ 2⁰
 - `-1^sign * magnitude` (convert normally)
-- Pros
 - Cons
     - `+0` and `-0`
-    - addition?
 
 ---
 
@@ -163,7 +151,6 @@ _backgroundColor: #3333
     - `x` = binary in bias notation
     - `b` = chosen bias
     - `n` = number want to represent
-- When is bias notation useful?
 
 ---
 

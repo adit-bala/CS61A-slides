@@ -19,7 +19,7 @@ _footer: Slides available at [`teaching.aditbala.com`](https://teaching.aditbala
 _class: invert
 -->
 
-# <!--fit--> Discussion 03
+# <!--fit--> Discussion 04
 
 ### RISC-V
 
