@@ -64,7 +64,6 @@ _backgroundColor: #3333
     - short := 2 bytes
     - int := 4 bytes
     - long := 8 bytes
-* Pointers? 	“32/64-bit systems”
 ---
 
 ## Pointers (Pt. 1)
@@ -88,37 +87,12 @@ _backgroundColor: #3333
     - Memory addresses hold a value, that can be retrieved by `*addr`
 * Address 
     - Every variable has its own memory address, found at `&var`! (where the variable lives)
-* Pointers are sized depending on the architecture!
-* Why do pointer sizes change?
 
----
-<!-- 
-_class: invert
-_footer: ""
-_backgroundColor: #3333
--->
-
-<style scoped>
-  pre > code {
-    font-size: 170%;
-  }
-</style>
-
-# Useful Tips
-
-```C
-char **double_ptr = malloc(sizeof(char*) * num_elem);
-char *single_ptr = malloc(sizeof(char) * num_elem);
-double_ptr[1] = single_ptr;
-*double_ptr = single_ptr;
-double_ptr = &single_ptr;
-```
 ---
 # The `sizeof()` function
 
 - Returns the size of the type of the given variable, in bytes
-- What’s sizeof(char*)?
-    * 1 byte
+
 
 
 ---
@@ -149,8 +123,6 @@ _backgroundColor: #3333
     - `struct.field`
     - `(*struct_ptr).field`
     - `struct_ptr->field`
-- Compiler aligns memory to field’s natural size
-    - Every field sits on memory addresses that is a multiple of its size
 
 ---
 # TypeDef
@@ -212,7 +184,7 @@ _backgroundColor: #3333
     - The code that you intend to execute
 - Static/data
     - Primarily constants that don’t need to be changed
-    CAN be changed, e.g. global variables
+    - CAN be changed, e.g. global variables
 
 ![bg right w:650 h:600](https://i.imgur.com/xbAbTmI.png)
 
@@ -220,7 +192,7 @@ _backgroundColor: #3333
 # Memory Structure (Pt.2)
 
 - Heap
-    - Memory that is ~~dynamically allocated~~
+    - Memory that is \~~dynamically allocated~~
     - Can only put things on the heap using malloc()
     - MUST be freed!!!
     - Grows bottom-up
@@ -237,6 +209,9 @@ _backgroundColor: #3333
 
 # <!-- fit --> Endianness
 ---
+<!-- 
+_backgroundColor: #9999
+-->
 # Endianness
 
 - Big endian: most significant byte @ smallest address
