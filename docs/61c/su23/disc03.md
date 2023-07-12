@@ -108,7 +108,7 @@ Assembly is...
 # Storage: Registers
 
 - On-chip memory
-- RV32 has 32 of them numbered x0-x31 (why not x32?)
+- RV32 has 32 of them numbered x0-x31 
 - They are all functionally the same but conventionally different
 - They're all 32 bits wide
 - Anything can be stored in them (no types)
@@ -146,7 +146,7 @@ _backgroundColor: #3333
 ### l<u>x</u> rd imm(rs1)
 
 - Loads `n` bits worth of data from memory address: `rs1 + imm` where `rs1` <u>should</u> already be a valid address.
-- `n` will depend on the instruction: `sb` = 8 bits, `sh` = 16 bits, `sw` = 32 bits, `sd` (not used usually) = 64 bits
+- `n` will depend on the instruction: `lb` = 8 bits, `lh` = 16 bits, `lw` = 32 bits, `ld` (not used usually) = 64 bits
 - If we have too few bits...
     * Sign-extend
 - If we have too many bits...
@@ -179,5 +179,9 @@ _backgroundColor: #3333
 j label # jal x0, label
 jr rs1 # jalr x0, 0(rs1)
 ```
+
+---
+
+# Thank you
 
 
