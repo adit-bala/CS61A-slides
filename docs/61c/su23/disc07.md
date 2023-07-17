@@ -170,6 +170,77 @@ _backgroundColor: #3333
 
 ---
 
+# Instruction Decode (ID)
+
+1. Parse instruction from 32 bits binary into useful signals
+2. Access RegFile with `rs1`, `rs2`, and `rd`
+    a. We can obtain the register numbers from the reference card
+        RegFile output the data that is read
+    b. Access ImmGen using **ImmSel**
+3. Generates immediate based on instruction type, and pad them to made full 32 bits
+
+---
+# Execute (EX)
+
+- ALU Operation using ALUSel
+    - Inputs to the ALU:
+        - (ASel = 0): Use `R[rs1]`
+        - (ASel = 1): Use `PC`
+        - (BSel = 0): Use `R[rs2]`
+        - (BSel = 1): Use `Immediate`
+    - Does regular ALU operations (for `I` and `R` type instructions)
+    - Also does all the adding! (except for `PC + 4`)
+- OR Branch Comparator
+    - (**BrUn** = 0) Compare `R[rs1]` and `R[rs2]` signed
+    - (**BrUn** = 1) Compare `R[rs1]` and `R[rs2]` unsigned
+    - Outputs **BrEq** and **BrLt**
+
+---
+
+# Memory Access (Mem)
+
+1. Access DMEM (Data Memory)
+    a. Inputs: 
+        i. Addr: address we’re accessing, calculated by ALU
+        ii. DataW: data we want to put into memory; only used for `S` type instructions
+        iii. (**MemRW** = 0) do not write into memory
+        iv. (**MemRW** = 1) write into memory
+
+---
+
+# Write Back (WB)
+
+- Selects which value to write to `rd`
+    - Inputs:
+        - (**WBSel** = 0) Data Memory that is read (with appropriate editing depending on whether we have `lb`, `lh`, `lw`)
+        - (**WBSel** = 1) ALU Output
+        - (**WBSel** = 2) PC + 4
+- Output a value that goes into DataD of RegFile
+    - **RegWEn** determines whether we actually update `rd`
 
 
 
+---
+
+# Control Signals
+
+
+![](https://i.imgur.com/n6Gwg1T.png)
+
+---
+
+# Control Signals Pt. 2
+
+
+![](https://i.imgur.com/6Aj2x0I.png)
+
+---
+
+# Control Signals Pt. 3
+
+
+![](https://i.imgur.com/pZSgo8H.png)
+
+---
+
+# Thank you!
