@@ -105,6 +105,11 @@ _backgroundColor: #3333
     - Solution: multi-level page table
 
 ---
+<style>
+{
+  font-size: 23px
+}
+</style>
 
 # TLB (Translation Lookaside Buffer)
 
